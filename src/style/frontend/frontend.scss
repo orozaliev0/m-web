@@ -1,0 +1,452 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/muller-narrow');
+
+#frontEnd {
+
+  .frontEnd {
+    background: #f8f8f8;
+
+    &--inform {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      &__question {
+
+        h3 {
+          font-size: 36px;
+          color: black;
+          margin-top: 0;
+        }
+
+        span {
+          font-size: 36px;
+          color: #EC3025;
+        }
+      }
+
+      &__text {
+
+        p {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 14px;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          color: rgba(27, 27, 27, 0.8);
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 0;
+          display: flex;
+          align-items: center;
+          color: rgba(27, 27, 27, 0.8);
+          margin-top: 40px;
+        }
+      }
+    }
+
+    &--courses {
+
+      h2 {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+        margin: 100px 0;
+      }
+
+      &__inform {
+        display: flex;
+        justify-content: space-between;
+
+
+        &--first {
+          &__fon {
+
+            width: 380px;
+            height: 202px;
+            left: 110px;
+            top: 1430px;
+            background: linear-gradient(180deg, #EDF1FF 0%, rgba(203, 214, 255, 0.65) 100%);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+
+            img {
+              width: 196px;
+              height: 170px;
+              left: 202px;
+              padding: 31px;
+
+            }
+          }
+
+          h3 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+
+            color: #000000;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 130%;
+            /* or 23px */
+
+            display: flex;
+            align-items: center;
+
+            color: rgba(27, 27, 27, 0.8);
+
+          }
+        }
+      }
+    }
+
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: 70px 0;
+      width: 1215px;
+      height: 229px;
+      left: 110px;
+      top: 1866px;
+
+      /* red */
+
+      border: 2px solid #EC3025;
+      border-radius: 125px;
+
+      &__first {
+        padding: 0 60px;
+
+        h1 {
+          font-weight: 500;
+          font-size: 64px;
+          line-height: 64px;
+          display: flex;
+          align-items: center;
+          color: #EC3025;
+          flex-direction: column;
+          text-align: center;
+
+          span {
+            margin: 10px 0;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            display: flex;
+            align-items: center;
+
+            color: #1B1B1B;
+          }
+        }
+
+        h4 {
+
+        }
+      }
+    }
+
+    &--buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 100px 0;
+
+
+      button {
+        width: 590px;
+        height: 205px;
+        background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+        border-radius: 30px;
+
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+
+        &:hover {
+          background: #3f3535;
+          border: none;
+        }
+      }
+    }
+
+
+  }
+
+  .frontEnd--bottom {
+    //width: 1440px;
+    //height: 895px;
+    left: 0;
+    top: 2540px;
+    background: #EFEFEF;
+
+
+    .frontEnd--cours {
+
+      display: flex;
+      justify-content: space-between;
+
+      &__text {
+        h2 {
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 40px;
+          display: flex;
+          align-items: center;
+          color: #EC3025;
+
+        }
+      }
+
+      &__informs {
+        padding-bottom: 60px;
+
+        &--first {
+
+
+          &__title {
+            display: flex;
+            justify-content: space-between;
+
+            h3 {
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 24px;
+              display: flex;
+              align-items: center;
+
+              color: #000000;
+
+
+            }
+
+            p {
+              font-weight: 400;
+              font-size: 19px;
+              line-height: 140%;
+              padding-top: 29px;
+
+
+              display: flex;
+              align-items: center;
+
+              color: rgba(27, 27, 27, 0.8);
+            }
+          }
+
+          hr {
+            width: 903px;
+            height: 0;
+
+            border: 1px solid #000000;
+            transform: rotate(0.03deg);
+          }
+
+
+        }
+      }
+    }
+
+  }
+
+  .frontEnd--certificate {
+    padding: 70px 0;
+    background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+
+
+    &__inform {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &--text {
+
+        h3 {
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 40px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+
+          color: #FFFFFF;
+        }
+
+        h6 {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          /* or 27px */
+
+          display: flex;
+          align-items: center;
+
+          color: rgba(255, 255, 255, 0.8);
+        }
+
+        &__buttons {
+
+          button {
+            padding: 5px 10px;
+            background: white;
+            color: black;
+            border-radius: 25px;
+            margin: 0 4px;
+            border: none;
+            transition: .4s;
+
+            &:hover {
+              background: #EC3025;
+              color: white;
+            }
+          }
+
+        }
+      }
+
+    }
+  }
+
+  .designer {
+    padding: 70px 0;
+
+    &--choose {
+
+      width: 1220px;
+      height: 179px;
+      left: 110px;
+      top: 4052px;
+      background: #FF563F;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 0;
+
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 0;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 0;
+        /* identical to box height, or 27px */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+    }
+
+    &--fon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 30px 0;
+
+      &__application {
+        width: 800px;
+        height: 344px;
+        left: 0;
+        top: 0;
+        display: flex;
+        //align-items: center;
+        //justify-content: center;
+        background: #FF563F;
+        border-radius: 30px;
+        flex-direction: column;
+
+
+        input {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 588px;
+          height: 63px;
+          padding: 0 20px;
+          background: #FFF8F8;
+          border-radius: 20px;
+          margin: 10px 82px;
+        }
+
+        &--checked{
+          display: flex;
+          align-items: center;
+          input{
+            width: 15px;
+            height: 15px;
+          }
+          p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 130%;
+            /* or 18px */
+
+            display: flex;
+            align-items: center;
+
+            color: rgba(255, 255, 255, 0.7);
+
+          }
+        }
+        button{
+          padding: 17px 0;
+          width: 588px;
+          background: #090A0C;
+          border-radius: 44px;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          color: #FFFFFF;
+          margin: 10px 82px;
+        }
+      }
+    }
+  }
+}

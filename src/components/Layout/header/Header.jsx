@@ -1,19 +1,29 @@
 import { useTranslation } from "react-i18next";
-import React from "react";
+import React, {useState} from "react";
 import LOGO from "../../image/header/logo.png";
 import language from "../../image/header/language.svg";
 import { NavLink } from "react-router-dom";
+import Courses from "./Courses";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const [courses,setCourses] = useState(false)
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
   return (
-    <header id="header">
+    <header
+        onMouseOver={()=> setCourses(true)}
+        onMouseLeave={() => setCourses(false)}
+        id="header">
       <div className="container">
-        <div className="header">
+          {/*{*/}
+          {/*    courses? :""*/}
+          {/*}*/}
+          {courses ?  <Courses/> : ''}
+
+          <div className="header">
           <div className="header--logo">
             <img src={LOGO} alt="" />
           </div>
