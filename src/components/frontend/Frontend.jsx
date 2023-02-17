@@ -7,6 +7,12 @@ import thirdImg from "../image/frontEnd/third.png"
 import Certificate from "../image/frontEnd/certificate.png"
 import Card from "../image/frontEnd/designer.png"
 
+import mentorRight from "../image/frontEnd/mentorRight.png"
+import mentorCenter from "../image/frontEnd/mentorCenter.png"
+import mentorLeft from "../image/frontEnd/mentorLeft.png"
+
+
+
 const Frontend = () => {
     const {t, i18n} = useTranslation();
     const [button, setButton] = useState(false)
@@ -157,6 +163,7 @@ const Frontend = () => {
                 </div>
 
             </div>
+
             <div className="frontEnd--certificate">
                 <div className="container">
                     <div className="frontEnd--certificate__inform">
@@ -209,6 +216,72 @@ const Frontend = () => {
 
             </div>
 
+
+            <div className="mentor">
+                <div className="container">
+                    <div className="mentor--title">
+                          <h2>{t("frontend.mentor")}</h2> <br/>
+                        <h3>{t("frontend.mentorKg")}</h3>
+                    </div>
+                    <div className="mentor--boys">
+                        <div className="mentor--boys__first">
+                            <img src={mentorRight} alt=""/>
+                            <h3>{t("frontend.nameRight")}</h3>
+                            <p>{t("frontend.rightInform")} <br/> {t("frontend.rightInform-")} <br/> {t("frontend.rightInform--")}</p>
+                        </div>
+                        <div className="mentor--boys__first">
+                            <img src={mentorCenter} alt=""/>
+                            <h3>{t("frontend.nameCenter")}</h3>
+                            <p>{t("frontend.rightInform")} <br/> {t("frontend.rightInform-")} <br/> {t("frontend.rightInform--")}</p>
+                        </div>
+                        <div className="mentor--boys__first">
+                            <img src={mentorLeft} alt=""/>
+                            <h3>{t("frontend.nameLeft")}</h3>
+                            <p>{t("frontend.rightInform")} <br/> {t("frontend.rightInform-")} <br/> {t("frontend.rightInform--")}</p>
+                        </div>
+
+                    </div>
+                    <div className="mentor--connection">
+                        <div className="mentor--connection__text">
+                            <h2>{t("frontend.mentorText")} <br/> {t("frontend.mentorText-")} <br/> {t("frontend.mentorText--")}</h2>
+                            <p>{t("frontend.texts")} <br/> {t("frontend.texts-")} <br/> {t("frontend.texts--")}</p>
+                        </div>
+                        <div className="mentor--connection__video">
+                            <iframe  width="380" height="215" style={{
+                                borderRadius: "30px",
+                                marginTop: "15px",
+                                margin: "0 30px"
+                            }}  src="https://www.youtube.com/embed/7VerRJwJP0s"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen>
+                            </iframe>
+                            <iframe width="380" height="215" style={{
+                                borderRadius: "30px",
+                                marginTop: "15px"
+                            }} src="https://www.youtube.com/embed/H0ZTsv4ljcE"
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen>
+
+                            </iframe>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="program">
+                <div className="container">
+                    <div className="program--courses">
+                        <h1>{t("frontend.program")}</h1>
+                        <p>{t("frontend.programText")} <br/> {t("frontend.programText-")} <br/> {t("frontend.programText--")} <br/> {t("frontend.programText---")}</p>
+                    </div>
+                </div>
+
+
+            </div>
 
         </div>
     )

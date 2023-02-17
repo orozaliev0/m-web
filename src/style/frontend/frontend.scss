@@ -51,6 +51,10 @@
 
     &--courses {
 
+       padding: 50px 0;
+
+
+
       h2 {
         font-weight: 500;
         font-size: 36px;
@@ -59,7 +63,11 @@
         align-items: center;
 
         color: #000000;
+
+        margin: 55px 0;
+
         margin: 100px 0;
+
       }
 
       &__inform {
@@ -119,9 +127,11 @@
     &--title {
       display: flex;
       align-items: center;
-      justify-content: center;
+
+      margin: 45px 0;
 
       margin: 70px 0;
+
       width: 1215px;
       height: 229px;
       left: 110px;
@@ -311,6 +321,9 @@
         &__buttons {
 
           button {
+
+            padding: 10px 15px;
+
             padding: 5px 10px;
             background: white;
             color: black;
@@ -389,6 +402,8 @@
         left: 0;
         top: 0;
         display: flex;
+        align-items: center;
+        justify-content: center;
         //align-items: center;
         //justify-content: center;
         background: #FF563F;
@@ -398,6 +413,7 @@
 
         input {
           display: flex;
+          //flex-direction: row;
           flex-direction: row;
           align-items: center;
           justify-content: center;
@@ -406,6 +422,12 @@
           padding: 0 20px;
           background: #FFF8F8;
           border-radius: 20px;
+          margin: 10px 0;
+
+        }
+
+        &--checked{
+          width: 646px;
           margin: 10px 82px;
         }
 
@@ -415,6 +437,7 @@
           input{
             width: 15px;
             height: 15px;
+            margin: 0 10px;
           }
           p{
             font-weight: 400;
@@ -431,6 +454,7 @@
         }
         button{
           padding: 17px 0;
+          width: 629px;
           width: 588px;
           background: #090A0C;
           border-radius: 44px;
@@ -449,4 +473,140 @@
       }
     }
   }
+
+  .mentor {
+    background: #EFEFEF;
+    padding: 100px 0;
+
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h2{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* красный */
+
+        color: #EC3025;
+      }
+      h3{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* красный */
+
+        color: #000000;
+      }
+    }
+
+    &--boys{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+
+      &__first{
+
+        h3{
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 130%;
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+
+          color: #000000;
+        }
+        p{
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          display: flex;
+          align-items: center;
+
+          color: rgba(27, 27, 27, 0.8);
+
+
+        }
+      }
+    }
+
+    &--connection {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__text {
+
+        h2{
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 36px;
+          display: flex;
+          align-items: center;
+
+          color: #000000;
+        }
+        p{
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 140%;
+          display: flex;
+          align-items: center;
+          color: #1D1D20;
+        }
+      }
+    }
+
+
+  }
+
+  .program {
+
+    &--courses {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0;
+
+      h1 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height */
+        margin-top: 10px;
+
+        display: flex;
+        align-items: center;
+
+        color: #EC3025;
+      }
+      p{
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 140%;
+        /* or 27px */
+        padding-top: 69px;
+
+        display: flex;
+        align-items: center;
+
+        color: rgba(27, 27, 27, 0.8);
+      }
+    }
+
+
+  }
+
 }
