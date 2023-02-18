@@ -1,6 +1,6 @@
 
 import React, {useState} from "react";
-import {useTranslation} from "react-i18next";
+
 import FirstImg from "../image/frontEnd/first.png"
 import secondImg from "../image/frontEnd/second.png"
 import thirdImg from "../image/frontEnd/third.png"
@@ -10,12 +10,13 @@ import Card from "../image/frontEnd/designer.png"
 import mentorRight from "../image/frontEnd/mentorRight.png"
 import mentorCenter from "../image/frontEnd/mentorCenter.png"
 import mentorLeft from "../image/frontEnd/mentorLeft.png"
+import { useTranslation } from "react-i18next";
 
 
 
 const Frontend = () => {
     const {t, i18n} = useTranslation();
-    const [button, setButton] = useState(false)
+    // const [button, setButton] = useState(false)
 
     return(
         <div id="frontEnd">

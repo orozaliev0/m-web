@@ -1,0 +1,731 @@
+@media (max-width: 1500px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 1352px;
+        height: 705px;
+        left: 74px;
+        top: 90px;
+        background: linear-gradient(
+          289.3deg,
+          rgba(19, 19, 19, 0.3) 17.11%,
+          rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+      .an1 {
+        position: absolute;
+        top: 121px;
+        left: 318px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+      .an4 {
+        position: absolute;
+        top: 229px;
+        left: -8px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an6 {
+        position: absolute;
+        top: 527px;
+        left: 164px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an7 {
+        position: absolute;
+        left: 706px;
+        top: 201px;
+      }
+      .an5 {
+        position: absolute;
+        left: 338px;
+        top: 458px;
+        animation: an5 5s ease-in infinite alternate;
+        -webkit-animation: an5 5s ease-in infinite alternate;
+      }
+
+      .an3 {
+        width: 343px;
+        overflow: hidden;
+        position: absolute;
+        top: 217px;
+        left: 1104px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an2 {
+        position: absolute;
+        left: 904px;
+        top: 122px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an11 {
+        position: absolute;
+        top: 580px;
+        left: 1047px;
+      }
+      .an12 {
+        position: absolute;
+        top: 300px;
+        right: 570px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an8 {
+        position: absolute;
+        top: 562px;
+        left: 412px;
+        animation: an9 5s ease-in infinite alternate;
+        -webkit-animation: an9 5s ease-in infinite alternate;
+      }
+      .an10 {
+        position: absolute;
+        top: 503px;
+        right: 400px;
+        animation: an10 5s ease-in infinite alternate;
+        -webkit-animation: an10 5s ease-in infinite alternate;
+      }
+      .an9 {
+        position: absolute;
+        left: 1025px;
+        top: 388px;
+        animation: an7 5s ease-in infinite alternate;
+        -webkit-animation: an7 5s ease-in infinite alternate;
+      }
+    }
+  }
+
+  @keyframes an1 {
+    100% {
+      transform: scale(1.5);
+      -webkit-transform: scale(1);
+    }
+    0% {
+      transform: scale(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an4 {
+    0% {
+      transform: scale3d(0.9);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale3d(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an6 {
+    0% {
+      transform: scale3d(0.9);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale3d(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an5 {
+    0% {
+      transform: scale3d(0.9);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale3d(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an2 {
+    100% {
+      transform: scale3d(0.5);
+      -webkit-transform: scale(1);
+    }
+    0% {
+      transform: scale3d(1);
+      -webkit-transform: scale(1.2);
+    }
+  }
+}
+@keyframes an11 {
+  100% {
+    transform: scale3d(0.5);
+    -webkit-transform: scale(1);
+  }
+  0% {
+    transform: scale3d(1);
+    -webkit-transform: scale(1.2);
+  }
+}
+@keyframes an8 {
+  100% {
+    transform: scale3d(0.5);
+    -webkit-transform: scale(1);
+  }
+  0% {
+    transform: scale3d(1);
+    -webkit-transform: scale(1.2);
+  }
+}
+
+@keyframes an7 {
+  100% {
+    transform: scale3d(0.5);
+    -webkit-transform: scale(1);
+  }
+  0% {
+    transform: scale3d(1);
+    -webkit-transform: scale(1.2);
+  }
+}
+@keyframes an10 {
+  100% {
+    transform: scale3d(0.5);
+    -webkit-transform: scale(1);
+  }
+  0% {
+    transform: scale3d(1);
+    -webkit-transform: scale(1.2);
+  }
+}
+@keyframes an9 {
+  100% {
+    transform: scale3d(0.5);
+    -webkit-transform: scale(1);
+  }
+  0% {
+    transform: scale3d(1);
+    -webkit-transform: scale(1.2);
+  }
+}
+
+@media (max-width: 1200px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 1116px;
+        height: 705px;
+        left: 74px;
+        top: 90px;
+        background: linear-gradient(
+          289.3deg,
+          rgba(19, 19, 19, 0.3) 17.11%,
+          rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+      .an1 {
+        position: absolute;
+        top: 71px;
+        left: 281px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+      .an4 {
+        position: absolute;
+        top: 229px;
+        left: -26px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an6 {
+        position: absolute;
+        top: 527px;
+        left: 115px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an7 {
+        position: absolute;
+        left: 606px;
+        top: 168px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an5 {
+        display: none;
+      }
+
+      .an3 {
+        display: none;
+      }
+      .an2 {
+        position: absolute;
+        left: 734px;
+        top: 122px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an11 {
+        position: absolute;
+        top: 580px;
+        left: 864px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an12 {
+        position: absolute;
+        top: 300px;
+        left: 386px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an8 {
+        position: absolute;
+        top: 562px;
+        left: 346px;
+        animation: an9 5s ease-in infinite alternate;
+        -webkit-animation: an9 5s ease-in infinite alternate;
+      }
+      .an10 {
+        position: absolute;
+        top: 503px;
+        right: 217px;
+        animation: an10 5s ease-in infinite alternate;
+        -webkit-animation: an10 5s ease-in infinite alternate;
+      }
+      .an9 {
+        position: absolute;
+        left: 947px;
+        top: 388px;
+        animation: an7 5s ease-in infinite alternate;
+        -webkit-animation: an7 5s ease-in infinite alternate;
+      }
+    }
+  }
+
+  @keyframes an1 {
+    100% {
+      transform: scale(1.5);
+      -webkit-transform: scale(1);
+    }
+    0% {
+      transform: scale(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an4 {
+    0% {
+      transform: scale3d(0.9);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale3d(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an6 {
+    0% {
+      transform: scale3d(0.9);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale3d(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an5 {
+    0% {
+      transform: scale3d(0.9);
+      -webkit-transform: scale(1);
+    }
+    100% {
+      transform: scale3d(2);
+      -webkit-transform: scale(0.8);
+    }
+  }
+  @keyframes an2 {
+    100% {
+      transform: scale3d(0.5);
+      -webkit-transform: scale(1);
+    }
+    0% {
+      transform: scale3d(1);
+      -webkit-transform: scale(1.2);
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 1045px;
+        height: 705px;
+        left: 74px;
+        top: 90px;
+        background: linear-gradient(
+          289.3deg,
+          rgba(19, 19, 19, 0.3) 17.11%,
+          rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+      .an1 {
+        position: absolute;
+        top: 71px;
+        left: 281px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+      .an4 {
+        position: absolute;
+        top: 229px;
+        left: -26px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an6 {
+        position: absolute;
+        top: 527px;
+        left: 115px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an7 {
+        position: absolute;
+        left: 606px;
+        top: 168px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an5 {
+        display: none;
+      }
+
+      .an3 {
+        display: none;
+      }
+      .an2 {
+        position: absolute;
+        left: 734px;
+        top: 122px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an11 {
+        position: absolute;
+        top: 580px;
+        left: 864px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an12 {
+        position: absolute;
+        top: 300px;
+        left: 386px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an8 {
+        position: absolute;
+        top: 562px;
+        left: 346px;
+        animation: an9 5s ease-in infinite alternate;
+        -webkit-animation: an9 5s ease-in infinite alternate;
+      }
+      .an10 {
+        position: absolute;
+        top: 503px;
+        right: 164px;
+        animation: an10 5s ease-in infinite alternate;
+        -webkit-animation: an10 5s ease-in infinite alternate;
+      }
+      .an9 {
+        position: absolute;
+        left: 920px;
+        top: 388px;
+        animation: an7 5s ease-in infinite alternate;
+        -webkit-animation: an7 5s ease-in infinite alternate;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 908px;
+        height: 705px;
+        left: 74px;
+        top: 90px;
+        background: linear-gradient(
+          289.3deg,
+          rgba(19, 19, 19, 0.3) 17.11%,
+          rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+      .an1 {
+        position: absolute;
+        top: 71px;
+        left: 204px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+      .an4 {
+        position: absolute;
+        top: 229px;
+        left: 7px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an6 {
+        position: absolute;
+        top: 527px;
+        left: 115px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an7 {
+        position: absolute;
+        left: 491px;
+        top: 168px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an5 {
+        display: block;
+        left: 881px;
+      }
+
+      .an3 {
+        display: block;
+        left: 288px;
+        top: 285px;
+      }
+      .an2 {
+        position: absolute;
+        left: 606px;
+        top: 121px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an11 {
+        position: absolute;
+        top: 564px;
+        left: 686px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an12 {
+        display: none;
+      }
+      .an8 {
+        position: absolute;
+        top: 562px;
+        left: 368px;
+        animation: an9 5s ease-in infinite alternate;
+        -webkit-animation: an9 5s ease-in infinite alternate;
+      }
+      .an10 {
+        position: absolute;
+        top: 503px;
+        right: 239px;
+        animation: an10 5s ease-in infinite alternate;
+        -webkit-animation: an10 5s ease-in infinite alternate;
+      }
+      .an9 {
+        display: block;
+        left: 723px;
+        top: 405px;
+      }
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 798px;
+        height: 705px;
+        left: 33px;
+        top: 90px;
+        background: linear-gradient(
+          289.3deg,
+          rgba(19, 19, 19, 0.3) 17.11%,
+          rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+      .an1 {
+        position: absolute;
+        top: 71px;
+        left: 204px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+      .an4 {
+        position: absolute;
+        top: 229px;
+        left: 7px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an6 {
+        position: absolute;
+        top: 527px;
+        left: 115px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an7 {
+        display: none;
+      }
+      .an5 {
+        display: none;
+      }
+
+      .an3 {
+        display: block;
+        left: 537px;
+        top: 352px;
+      }
+      .an2 {
+        position: absolute;
+        left: 522px;
+        top: 121px;
+        animation: an2 5s ease-in infinite alternate;
+        -webkit-animation: an2 5s ease-in infinite alternate;
+      }
+      .an11 {
+        top: 321px;
+        left: 373px;
+      }
+      .an12 {
+        display: none;
+      }
+      .an8 {
+        top: 497px;
+        left: 373px;
+      }
+      .an10 {
+        display: none;
+      }
+      .an9 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #mainPart {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .mainPart {
+      .backdropBlur {
+        position: absolute;
+        width: 675px;
+        height: 705px;
+        left: 33px;
+        top: 90px;
+        background: linear-gradient(
+          289.3deg,
+          rgba(19, 19, 19, 0.3) 17.11%,
+          rgba(28, 28, 28, 0.261) 100%
+        );
+        -webkit-backdrop-filter: blur(7.5px);
+        backdrop-filter: blur(7.5px);
+        border-radius: 20px;
+      }
+      .an1 {
+        position: absolute;
+        top: 71px;
+        left: 475px;
+        animation: an1 5s ease-in infinite alternate;
+        -webkit-animation: an1 5s ease-in infinite alternate;
+      }
+      .an4 {
+        position: absolute;
+        top: 91px;
+        left: 7px;
+        animation: an4 5s ease-in infinite alternate;
+        -webkit-animation: an4 5s ease-in infinite alternate;
+      }
+      .an6 {
+        position: absolute;
+        top: 454px;
+        left: 75px;
+        animation: an6 5s ease-in infinite alternate;
+        -webkit-animation: an6 5s ease-in infinite alternate;
+      }
+      .an7 {
+        display: none;
+      }
+      .an5 {
+        display: none;
+        left: 384px;
+        top: 158px;
+      }
+
+      .an3 {
+        display: block;
+        left: 410px;
+        top: 280px;
+      }
+      .an2 {
+        display: none;
+      }
+      .an11 {
+        top: 268px;
+        left: 318px;
+      }
+      .an12 {
+        display: none;
+      }
+      .an8 {
+        top: 497px;
+        left: 373px;
+      }
+      .an10 {
+        display: none;
+      }
+      .an9 {
+        display: none;
+      }
+    }
+  }
+}
