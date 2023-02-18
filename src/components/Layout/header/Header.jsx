@@ -4,10 +4,16 @@ import LOGO from "../../image/header/logo.png";
 import language from "../../image/header/language.svg";
 import { NavLink } from "react-router-dom";
 import Courses from "./Courses";
+import Menu from "./Menu";
+
+
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const items = [{value : 'О нас', href : '/aboutUs' },{value : 'Frontend', href : 'frontend' },{value : 'backend', href : 'backend' },{value : 'UxUi', href : 'UxUi' },{value : 'Club', href : 'club' },{value : 'Contact' , href: '' }]
+  
   const [courses,setCourses] = useState(false)
+  const [active , setActive] = useState(false)
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
@@ -18,10 +24,7 @@ const Header = () => {
         onMouseLeave={() => setCourses(false)}
         id="header">
       <div className="container">
-          {/*{*/}
-          {/*    courses? :""*/}
-          {/*}*/}
-          {courses ?  <Courses/> : ''}
+         <dir className="courses--navbar"> {courses ?  <Courses/> : ''}</dir>
 
           <div className="header">
           <div className="header--logo">
@@ -34,6 +37,9 @@ const Header = () => {
             <NavLink to={"club"} className='header--navbar--link'>Клуб</NavLink>
             <NavLink className='header--navbar--link'>Контакты</NavLink>
           </nav>
+
+        
+
           <div className="header--language">
             <img src={language} alt="" />
             <div>
@@ -42,8 +48,18 @@ const Header = () => {
               <span onClick={()=> changeLanguage('en')}> ENG </span>
             </div>
           </div>
+          
+          <nav className="burger_navbar">
+            <div 
+            onClick={()=> setActive(!active)}
+            className="burger-btn">
+              <span/>
+            </div>
+          </nav>
         </div>
       </div>
+
+     <div className="menu--navbar"> <Menu items={items} active={active} setActive={setActive}/></div>
     </header>
   );
 };

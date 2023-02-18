@@ -1,3 +1,4 @@
+@import './headerMedia.scss';
 #header {
     height: 53px;
     background: #f8f8f8;
@@ -37,6 +38,9 @@
         &--link:hover{
           color: #1B1B1B;
         }
+      }
+      .burger_navbar{
+        display: none;
       }
   
       &--language {
