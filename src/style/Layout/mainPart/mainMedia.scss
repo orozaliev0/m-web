@@ -172,6 +172,7 @@
     }
   }
 }
+@media (max-width: 1600px) { }
 @media (max-width: 1400px) {
   #mainPart {
     min-height: 100%;
@@ -181,6 +182,14 @@
     .mainPart {
       .backdropBlur {
         position: absolute;
+        width: 1404px;
+        height: 705px;
+        left: 74px;
+        top: 90px;
+        background: linear-gradient(
+                        289.3deg,
+                        rgba(19, 19, 19, 0.3) 17.11%,
+                        rgba(28, 28, 28, 0.261) 100%
         width: 1324px;
         height: 705px;
         left: 74px;
@@ -233,6 +242,7 @@
         overflow: hidden;
         position: absolute;
         top: 217px;
+        left: 1104px;
         left: 1036px;
         animation: an6 5s ease-in infinite alternate;
         -webkit-animation: an6 5s ease-in infinite alternate;
@@ -252,6 +262,7 @@
       .an12 {
         position: absolute;
         top: 300px;
+        right: 570px;
         left: 503px;
         animation: an2 5s ease-in infinite alternate;
         -webkit-animation: an2 5s ease-in infinite alternate;
@@ -266,6 +277,7 @@
       .an10 {
         position: absolute;
         top: 503px;
+        right: 400px;
         right: 300px;
         animation: an10 5s ease-in infinite alternate;
         -webkit-animation: an10 5s ease-in infinite alternate;
@@ -346,9 +358,6 @@
     }
   }
 }
-
-
-
 @keyframes an11 {
   100% {
     transform: scale3d(0.5);
