@@ -4,6 +4,7 @@
 
 #frontEnd {
   margin-top: 900px;
+
   .frontEnd {
     background: #f8f8f8;
 
@@ -52,8 +53,7 @@
 
     &--courses {
 
-       padding: 50px 0;
-
+      padding: 50px 0;
 
 
       h2 {
@@ -427,20 +427,22 @@
 
         }
 
-        &--checked{
+        &--checked {
           width: 646px;
           margin: 10px 82px;
         }
 
-        &--checked{
+        &--checked {
           display: flex;
           align-items: center;
-          input{
+
+          input {
             width: 15px;
             height: 15px;
             margin: 0 10px;
           }
-          p{
+
+          p {
             font-weight: 400;
             font-size: 14px;
             line-height: 130%;
@@ -453,7 +455,8 @@
 
           }
         }
-        button{
+
+        button {
           padding: 17px 0;
           width: 629px;
           width: 588px;
@@ -485,7 +488,7 @@
       justify-content: center;
       flex-direction: column;
 
-      h2{
+      h2 {
         font-weight: 500;
         font-size: 40px;
         line-height: 0;
@@ -497,7 +500,8 @@
 
         color: #EC3025;
       }
-      h3{
+
+      h3 {
         font-weight: 500;
         font-size: 40px;
         line-height: 0;
@@ -511,15 +515,15 @@
       }
     }
 
-    &--boys{
+    &--boys {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 50px 0;
 
-      &__first{
+      &__first {
 
-        h3{
+        h3 {
           font-weight: 400;
           font-size: 24px;
           line-height: 130%;
@@ -530,7 +534,8 @@
 
           color: #000000;
         }
-        p{
+
+        p {
           font-weight: 400;
           font-size: 19px;
           line-height: 140%;
@@ -551,7 +556,7 @@
 
       &__text {
 
-        h2{
+        h2 {
           font-weight: 500;
           font-size: 36px;
           line-height: 36px;
@@ -560,7 +565,8 @@
 
           color: #000000;
         }
-        p{
+
+        p {
           font-weight: 400;
           font-size: 19px;
           line-height: 140%;
@@ -593,7 +599,8 @@
 
         color: #EC3025;
       }
-      p{
+
+      p {
         font-weight: 400;
         font-size: 19px;
         line-height: 140%;
@@ -611,3 +618,5 @@
   }
 
 }
+
+
