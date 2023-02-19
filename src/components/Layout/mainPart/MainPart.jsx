@@ -11,6 +11,10 @@ import an8 from "../../image/mainPart/an8.png";
 import an7 from "../../image/mainPart/an7.png";
 import an10 from "../../image/mainPart/an10.png";
 import an13 from "../../image/mainPart/an13.png";
+import an1media from "../../image/mainPart/an1media.png";
+import an3media from "../../image/mainPart/an3media.png";
+import an4media from "../../image/mainPart/an4media.png";
+import an5media from "../../image/mainPart/an5media.png";
 
 import an9 from "../../image/mainPart/an9.png";
 
@@ -54,6 +58,22 @@ const MainPart = () => {
         </div>
          <div className="an9">
           <img src={an9} alt="" />
+        </div>
+
+
+
+        <div className="an1media">
+          <img src={an1media} alt="" />
+        </div> 
+     
+         <div className="an3media">
+          <img src={an3media} alt="" />
+        </div>  
+         <div className="an4media">
+          <img src={an4media} alt="" />
+        </div>
+        <div className="an5media">
+          <img src={an5media} alt="" />
         </div>
           <div className="backdropBlur"></div>
         
