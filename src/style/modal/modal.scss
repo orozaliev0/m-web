@@ -15,6 +15,16 @@
       background: #282828;
       box-shadow: 4px 32px 16px rgba(0, 0, 0, 0.25);
       border-radius: 30px;
+
+      &--close{
+        color: #e4e4e4;
+        font-size: 30px;
+        position: absolute;
+        margin-left: 667px;
+        margin-top: 37px;
+        cursor: pointer;
+     
+      }
   
       .modal--img {
         margin: 31px 0;

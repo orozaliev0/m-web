@@ -1,8 +1,9 @@
 import axios from "axios";
 import React, { useState } from "react";
 import SMILE from "../image/modal/smile.png";
+import {MdClose} from 'react-icons/md'
 
-const Modal = () => {
+const Modal = ({modal,setModal}) => {
   const [values, setValues] = useState({
     name: "",
     phone: "",
@@ -22,6 +23,10 @@ const Modal = () => {
   return (
     <div id="modal">
       <div className="modal">
+        <div
+        onClick={()=> setModal(false)}
+         className="modal--close">
+          <MdClose style={{color: "white"}}/></div>
         <img className="modal--img" src={SMILE} alt="" />
         <div className="modal--form">
           <input

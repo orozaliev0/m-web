@@ -24,7 +24,7 @@ function App() {
           <Route path="club" element={<Club />} />
         </Route>
       </Routes>
-      {/*<Modal/>*/}
+    
     </div>
   );
 

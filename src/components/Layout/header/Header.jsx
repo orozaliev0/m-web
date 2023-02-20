@@ -28,10 +28,10 @@ const Header = () => {
 
           <div className="header">
           <div className="header--logo">
-            <img src={LOGO} alt="" />
+            <NavLink to={'/'}><img src={LOGO} alt="" /></NavLink>
           </div>
           <nav className="header--navbar">
-            <NavLink to={"/"}  className='header--navbar--link'>{t('text')}</NavLink>
+            <NavLink to={"/"}  className='header--navbar--link'>Главная</NavLink>
             <NavLink to={"aboutUs"} className='header--navbar--link'>О нас</NavLink>
             <span className="header--navber--courses"> О курсах</span>
             <NavLink to={"club"} className='header--navbar--link'>Клуб</NavLink>
