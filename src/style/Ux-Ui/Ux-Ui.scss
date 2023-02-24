@@ -1085,5 +1085,137 @@
   .container{
     width: 90%;
   }
+  #frontEnd .frontEnd--inform__question h3 span {
+    font-size: 24px;
+    margin: 0 6px;
+}
+#frontEnd .frontEnd--inform__question h3 {
+  font-size: 24px;
+  color: black;
+  margin-top: 0;
+  width: 452px;
+  display: flex;
+  justify-content: center;
+  margin-left: 34px;
+}
+#frontEnd .container .frontEnd--inform__text P {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50px; */
+  text-align: center;
+}
+
+#frontEnd .container .frontEnd--inform__text h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0;
+    margin: 13px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 52px; */
+}
+#frontEnd .container .frontEnd--inform__text P {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50px; */
+  text-align: center;
+  margin-left: 9px;
+}
+#frontEnd .container .frontEnd--courses h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 50px 0;
+  width: 373px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 71px;
+}
+
+#frontEnd .container .frontEnd--courses__inform--first h3 {
+    font-weight: 400;
+    font-size: 22px;
+   
+    display: flex;
+    justify-content: center;
+}
+#frontEnd .container .frontEnd--courses__inform--first h3 {
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-left: -5px;
+}
+#frontEnd .frontEnd .frontEnd--title {
+  width: 509px;
+  height: 106px;
+  margin: 0;
+}
+#frontEnd .frontEnd .frontEnd--buttons button {
+  width: 217px;
+  height: 112px;
+  background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 22px;
+  margin: -31px 0;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__text h2 {
+  font-size: 29px;
+  line-height: 38px;
+  display: flex;
+  justify-content: center;
+  width: 379px;
+  text-align: center;
+  margin-left: 67px;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__informs--first hr {
+  width: 516px;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__informs--first__title h3 {
+  font-weight: 500;
+  font-size: 14px;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__informs--first__title p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  padding-top: 14px;
+}
+#frontEnd .frontEnd--certificate__inform--text h3 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 0px;
+  margin-left: 122px;
+  #frontEnd .frontEnd--certificate__inform--text h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 157%;
+    /* width: 587px; */
+    text-align: center;
+    text-align: center;
+    margin-left: 16px;
+    justify-content: center;
+}
+#frontEnd .frontEnd--certificate__inform--text__buttons button {
+  padding: 10px 15px;
+  padding: 10px 15px;
+  background: white;
+  color: black;
+  border-radius: 25px;
+  margin: 0 4px;
+  border: none;
+  transition: 0.4s;
+  font-size: 15px;
+  margin-left: 31px;
+}
+}
 }
 

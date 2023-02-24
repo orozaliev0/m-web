@@ -809,19 +809,42 @@ padding: 21px 64px;
     height: 304px;
             }
           }
+        }
+      }
           .team{
             h1{
               font-size: 38px;
             }
             .com{
+              .blacks-black4 {
+                margin: -527px 0 0px 399px;
+                width: 64px;
+            }
               .blur {
+                margin: -136px -98px;
                 width: 315px;
                 height: 283px;
             }
+            .blacks-black5{
+              display: none;
+            }
+            .tex{
+              margin: -328px 0 0 196px;
+              .front{
+                font-size: 47px;
+              }
+              .design{
+                font-size: 30px;
+              }
+              .back{
+                font-size: 47px;
+              }
+              
+            }
           }
         }
-        }
-       }
+       
+      
      
     }
   }

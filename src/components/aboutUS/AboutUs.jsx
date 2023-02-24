@@ -79,14 +79,15 @@ const AboutUs = () => {
                         <a href="">{t("about.show")}</a>
                     </div>
                 </div>
-                <div className="logos">
+                
+            </div>
+            <div className="logos">
                     <div className="images">
                         <img src={limitless} alt=""/>
                         <img src={temir} alt=""/>
                         <img src={webilim} alt=""/>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }
