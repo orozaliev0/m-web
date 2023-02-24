@@ -23,11 +23,11 @@ const Frontend = () => {
 
             <div className="frontEnd">
                 <div className="container">
-                    <div className="frontEnd--inform">
+                <div className="frontEnd--inform">
                         <div className="frontEnd--inform__question">
 
                             <h3>{t("frontend.question")} <span>{t("frontend.text")}
-                                <br/> {t("frontend.text-")}</span> {t("frontend.text?")}</h3>
+                                {t("frontend.text-")}</span> {t("frontend.text?")}</h3>
 
 
                         </div>
@@ -40,10 +40,9 @@ const Frontend = () => {
                             <h4>{t("frontend.left---")}</h4>
                         </div>
                     </div>
-                </div>
-                <div className="container">
+
                     <div className="frontEnd--courses">
-                        <h2>{t("frontend.courses")} <br/> {t("frontend.courses-")}</h2>
+                        <h2>{t("frontend.courses")}  {t("frontend.courses-")}</h2>
 
                         <div className="frontEnd--courses__inform">
                             <div className="frontEnd--courses__inform--first">
@@ -75,8 +74,7 @@ const Frontend = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="container">
+
                     <div className="frontEnd--title">
                         <div className="frontEnd--title__first">
                             <h1>{t("frontend.educationHour")} <br/> <span>{t("frontend.education")}</span></h1>
@@ -88,21 +86,19 @@ const Frontend = () => {
                             <h1>{t("frontend.timeEnglish")} <br/> <span>{t("frontend.englishHour")}</span></h1>
                         </div>
                     </div>
-                </div>
-                <div className="container">
+
                     <div className="frontEnd--buttons">
                         <button>{t("frontend.offline")}</button>
                         <button>{t("frontend.online")}</button>
                     </div>
                 </div>
-
             </div>
 
             <div className="frontEnd--bottom">
                 <div className="container">
                     <div className="frontEnd--cours">
                         <div className="frontEnd--cours__text">
-                            <h2>{t("frontend.coursText")} <br/> {t("frontend.coursText-")}</h2>
+                            <h2>{t("frontend.coursText")}    {t("frontend.coursText-")}</h2>
                         </div>
                         <div className="frontEnd--cours__informs">
                             <div className="frontEnd--cours__informs--first">
@@ -206,7 +202,7 @@ const Frontend = () => {
                                 <input type="text" placeholder="Номер"/>
                             </form>
                             <div className="designer--fon__application--checked">
-                                <input type="checkbox"/>
+                                <input type="checkbox"className="input"/>
                                 <p>{t("frontend.agree")}</p>
 
                             </div>
@@ -248,7 +244,7 @@ const Frontend = () => {
                             <p>{t("frontend.texts")} <br/> {t("frontend.texts-")} <br/> {t("frontend.texts--")}</p>
                         </div>
                         <div className="mentor--connection__video">
-                            <iframe  width="380" height="215" style={{
+                            <iframe className="video"   style={{
                                 borderRadius: "30px",
                                 marginTop: "15px",
                                 margin: "0 30px"
@@ -257,7 +253,7 @@ const Frontend = () => {
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen>
                             </iframe>
-                            <iframe width="380" height="215" style={{
+                            <iframe className="video"   style={{
                                 borderRadius: "30px",
                                 marginTop: "15px"
                             }} src="https://www.youtube.com/embed/H0ZTsv4ljcE"

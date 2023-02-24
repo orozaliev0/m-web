@@ -56,7 +56,7 @@ margin-top: 1024px;
       .photos{
         display: flex;
         justify-content: space-between;
-        margin: 22px 0;
+        margin: 13px -53px;
         .first{
           margin: 16px 104px 0 -60px;
           &-h3{
@@ -82,7 +82,7 @@ margin-top: 1024px;
         justify-content: space-between;
         align-items: center;
         .lis{
-          margin: 0 -115px;
+          margin: 0px -125px;
           .licenses{
             h1{
               font-weight: 500;
@@ -146,8 +146,10 @@ margin-top: 1024px;
     }
     .gallery{
       .photos{
+
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         h1{
           font-size: 40px;
           line-height: 40px;
@@ -164,6 +166,7 @@ margin-top: 1024px;
       .other{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         .image{
           margin: -27px -49px;
           padding: 13px;
@@ -197,4 +200,57 @@ color: #000000;
     }
   }
 
+}
+@media (max-widh:1500px) {
+  
+}
+@media (max-widh:1400px) {
+  
+}
+@media (max-width:1200px) {
+  #about{
+    .container{
+      .motion{
+        margin: -1015px 96px;
+      }
+      .founders{
+        flex-direction: column;
+        .photos{
+    
+    margin: 6px 59px;
+        }
+        .lis{
+.license{
+  img{
+    margin: 0 -125px -11px;
+
+  }
+}
+        }
+      }
+    }
+  }
+
+}
+@media (max-width:1140px) {
+  
+}
+@media (max-width:992px) {
+  
+}
+@media (max-width:768px) {
+  
+}
+@media (max-width:576) {
+  
+}
+
+@media (max-width:450px) {
+  
+}
+@media (max-width:376px) {
+  
+}
+@media (max-width:320px) {
+  
 }

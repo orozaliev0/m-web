@@ -17,8 +17,9 @@
 
         h3 {
           font-size: 36px;
-          color: black;
-          margin-top: 0;
+    color: black;
+    margin-top: 0;
+    width: 379px;
         }
 
         span {
@@ -28,6 +29,8 @@
       }
 
       &__text {
+        display: flex;
+        flex-direction: column;
 
         p {
           font-weight: 400;
@@ -68,6 +71,7 @@
         margin: 55px 0;
 
         margin: 100px 0;
+        width: 262px;
 
       }
 
@@ -133,7 +137,7 @@
 
       margin: 70px 0;
 
-      width: 1215px;
+      width: 1280px;
       height: 229px;
       left: 110px;
       top: 1866px;
@@ -350,7 +354,7 @@
 
     &--choose {
 
-      width: 1220px;
+      width: 1280px;
       height: 179px;
       left: 110px;
       top: 4052px;
@@ -440,6 +444,9 @@
             width: 15px;
             height: 15px;
             margin: 0 10px;
+          }
+          .input{
+            width: 500px;
           }
 
           p {
@@ -553,6 +560,13 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      &__video{
+           display: flex;
+        .video{
+          // width: 38/0px;
+        }
+      }
 
       &__text {
 

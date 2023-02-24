@@ -12,9 +12,8 @@ import axios from "axios";
 import Accordion from "./Accordion";
 import icon5 from "../image/home-main/icon5.svg";
 import Modal from "../modal/Modal";
-
-
-
+import userlesson from "../image/home-main/card.png" 
+import mainuser from "../image/home-main/mainM.png"
 const Home = () => {
   const { t, i18n } = useTranslation();
   const [modal, setModal] = useState(false)
@@ -70,10 +69,10 @@ const Home = () => {
 
   return (
     <>
-      {/*<div className="home_name">*/}
-      {/*    <span className="home--name_part"> MOTION WEB</span>*/}
-      {/*    <span> IT ACADEMY</span>*/}
-      {/*</div>*/}
+      {/* <div className="home_name"> */}
+         {/* <span className="home--name_part"> MOTION WEB</span> */}
+         {/* <span> IT ACADEMY</span> */}
+      {/* </div> */}
       <div>
         <div id="title">
           <div className="container">
@@ -263,6 +262,26 @@ const Home = () => {
           </div>
         </section>
 
+
+        
+      <div id="lesson">
+        <div className="container">
+          <div className="lesson">
+                  <img src={userlesson} alt="" />
+                  <div className="lesson--block">
+                    <div className="lesson--block--le">
+                      <h1>ПРОБНЫЕ УРОКИ</h1>
+                      <p>Прочуствуй дружную атмосферу нашей академии! Оставь заявку на пробный урок и стань ближе к своей цели!</p>
+                    </div>
+                    <div className="lesson--block--right">
+                      <h2>18 февраля в 18:00 мастер класс по FRONTEND</h2>
+                    <button>Записаться</button>
+                    </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+
         <section id="web">
           <div className="container">
             <div className="nav">
@@ -314,7 +333,19 @@ const Home = () => {
 
         <section id="bac">
           <div className="container">
-            <div className="bac"></div>
+            <div className="bac">
+
+              <div className="bac--blocks"> 
+              <h1>Проекты студентов</h1>
+              <h2>MOTIN WEB IT ACADEMY</h2>
+              </div>
+              <img src={mainuser} alt="" />
+              <img src={mainuser} alt="" />
+              <img src={mainuser} alt="" />
+              <img src={mainuser} alt="" />
+              <div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -322,7 +353,21 @@ const Home = () => {
           <div className="container">
             <div className="swiper">
               <h1>Отзывы студентов</h1>
-              <Slider {...settings}></Slider>
+              <Slider {...settings}>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              <div className="swiper--block"> </div>
+              </Slider>
             </div>
           </div>
         </section>

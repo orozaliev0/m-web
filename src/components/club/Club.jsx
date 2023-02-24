@@ -43,7 +43,7 @@ const Club = () => {
             <p>{t("club.inf1")}</p>
           </div>
         </div>
-        <div className="project">
+       
           <div className="li">
             <div className="line">
               <div className="three">
@@ -62,7 +62,7 @@ const Club = () => {
               </div>
             </div>
           </div>
-        </div>
+      
         Ï
         <div className="team">
           <h1>{t("club.team")}</h1>

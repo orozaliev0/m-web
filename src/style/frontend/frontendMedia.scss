@@ -1,83 +1,87 @@
 @media (max-width: 1140px) {
-  .container {
-    width: 90%;
-  }
+ 
 
   #frontEnd {
+   
     .frontEnd {
-      &--inform {
-        &__question {
-          h3 {
-            font-size: 30px;
-            span {
-              font-size: 30px;
-            }
-          }
-        }
-        &__text {
-          h4 {
-            font-weight: 400;
-            font-size: 17px;
-          }
-        }
-      }
-      &--courses {
-        h2 {
-          font-weight: 500;
-          font-size: 32px;
-          line-height: 36px;
-          display: flex;
-          align-items: center;
-          color: #000000;
-          margin: 58px 0;
-        }
-        &__inform {
-          &--first {
-            &__fon {
-              width: 306px;
-              height: 202px;
-            }
+      .container{
+        &--inform {
+          &__question {
             h3 {
-              font-weight: 400;
-              font-size: 22px;
+              font-size: 30px;
+              span {
+                font-size: 30px;
+              }
             }
-            p {
+          }
+          &__text {
+            h4 {
               font-weight: 400;
-              font-size: 14px;
+              font-size: 17px;
             }
           }
         }
-      }
-      &--title {
-        display: flex;
-        justify-content: center;
-        width: 1021px;
-        height: 200px;
-        &__first {
-          h1 {
+        &--courses {
+          h2 {
             font-weight: 500;
-            font-size: 38px;
-            span {
-              font-weight: 400;
-              font-size: 20px;
+            font-size: 32px;
+            line-height: 36px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin: 58px 0;
+          }
+          &__inform {
+  
+            &--first {
+  
+              &__fon {
+                width: 315px;
+                height: 202px;
+              }
+              h3 {
+                font-weight: 400;
+                font-size: 22px;
+              }
+              p {
+                font-weight: 400;
+                font-size: 14px;
+              }
             }
           }
         }
-      }
-      &--buttons {
-        button {
-          width: 440px;
-          height: 178px;
-          background: linear-gradient(
-            289.3deg,
-            #131313 17.11%,
-            rgba(28, 28, 28, 0.87) 100%
-          );
-          border-radius: 30px;
-          font-weight: 500;
-          font-size: 34px;
+        &--title {
+          display: flex;
+          justify-content: center;
+          width: 1021px;
+          height: 200px;
+          &__first {
+            h1 {
+              font-weight: 500;
+              font-size: 38px;
+              span {
+                font-weight: 400;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        &--buttons {
+          button {
+            width: 440px;
+            height: 178px;
+            background: linear-gradient(
+              289.3deg,
+              #131313 17.11%,
+              rgba(28, 28, 28, 0.87) 100%
+            );
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 34px;
+          }
         }
       }
+      
     }
     .frontEnd--bottom {
       .frontEnd--cours {
@@ -109,28 +113,34 @@
       }
     }
     .frontEnd--certificate {
-      &__inform {
-        &--text {
-          h3 {
-            font-weight: 500;
-            font-size: 36px;
-            margin-top: 20px;
-          }
-          h6 {
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 123%;
-          }
-          &__buttons {
-          }
+    .container{
+
+    width: 90%;
+
+    &__inform {
+        
+      &--text {
+        h3 {
+          font-weight: 500;
+          font-size: 36px;
+          margin-top: 20px;
         }
-        &--img {
-          img {
-            width: 500px;
-            height: 326px;
-          }
+        h6 {
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 123%;
+        }
+        &__buttons {
         }
       }
+      &--img {
+        img {
+          width: 500px;
+          height: 326px;
+        }
+      }
+    }
+    }
     }
     .mentor {
       padding: 60px 0;
@@ -242,42 +252,205 @@
 }
 
 @media (max-width: 992px) {
-  .container {
-    width: 90%;
-  }
+
+ 
   #frontEnd {
-    .frontEnd {
-      .frontEnd--title {
-        width: 887px;
+    .container {
+      width: 90%;
+
+      .frontEnd {
+
+        &--inform{
+          &--question{
+            h3{
+              width: 263px;
+    font-size: 32px;
+    color: black;
+    margin-top: 0;
+
+    span{
+      font-size: 32px;
+      color: #EC3025;
+    }
+            }
+          }
+  
+          &__text{
+            P{
+              font-weight: 400;
+      font-size: 15px;
+            }
+            h4{
+              font-weight: 400;
+      font-size: 14px;
+            }
+          }
+        }
+  
+        &--courses{
+
+          h2{
+            font-weight: 500;
+    font-size: 31px;
+          }
+  
+          &__inform{
+  
+            &--first{
+  
+              &__fon{
+                width: 271px;
+                height: 202px;
+              }
+              h3{
+                font-weight: 400;
+                font-size: 20px;
+              }
+              p{
+                font-weight: 400;
+                font-size: 12px
+              }
+  
+            }
+          }
+        }
+        &--title {
+          width: 887px;
+          height: 205px;
+          margin: 0;
+  
+          &__first{
+  
+            h1{
+              font-weight: 500;
+              font-size: 38px;
+  
+  span{
+    margin: 0px 0;
+    font-weight: 400;
+    font-size: 19px;
+  }
+            }
+          }
+        }
+        &--buttons{
+          button{
+                 width: 400px;
+      height: 163px;
+          }
+             
+        }
+  
       }
+    }
+    .frontEnd--bottom {
+      .container{
+        .frontEnd--cours { 
+          &__text {
+  
+            h2 {
+              font-size: 35px;
+    line-height: 38px;
+    width: 24px;
+    margin-top: 21px;
+            }
+          }
+          &__informs {
+  
+            &--first {
+  
+              &__title{
+
+                h3{
+                  font-weight: 500;
+                  font-size: 19px;
+                }
+
+                p{
+                  font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 14px;
+                }
+              }
+              hr {
+                width: 690px;
+              }
+            }
+          }
+        }
+      }
+      
+    }
+    .frontEnd--certificate{
+
+     .container{
+      width: 90%;
+      &__inform{
+
+        &--text{
+
+          h3{
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 0px;
+          }
+        }
+      }
+     }
+     
     }
     .designer {
-      &--choose {
-        width: 891px;
-        height: 154px;
+     .container{
+      .designer--choose{
+            width: 893px;
+       
       }
+      .designer--fon{
+        &__application{
+              width: 534px;
+              form{
+                input{
+                      width: 399px;
+                      height: 52px;
+                }
+              }
+              &--checked{
+                width: 452px;
+              }
+              button{
+                    width: 444px;
+              }
+        }
+      }
+     }
     }
     .mentor {
-      &--boys {
-        &__first {
-          img {
-            width: 275px;
+      
+        &--boys {
+          &__first {
+            img {
+              width: 275px;
+            }
           }
         }
-      }
-      &--connection {
-        &__text {
-          h2 {
-            font-size: 26px;
+        &--connection {
+          &__text {
+            h2 {
+              font-size: 26px;
+            }
+          }
+          &__video {
+            
+            .video {
+              width: 264px;
+            }
+              
           }
         }
-        &__video {
-          .video {
-            width: 283px;
-            height: 187px;
-          }
-        }
-      }
+      
+
+      
     }
     .program {
       &--courses {
@@ -285,11 +458,17 @@
           font-size: 32px;
         }
         p {
-          font-size: 16px;
+          font-weight: 400;
+          
         }
       }
     }
+    
+    
   }
+//   #frontEnd .mentor--connection__video .video {
+//     width: 259px;
+// }
 }
 
 @media (max-width: 768px) {
@@ -522,4 +701,25 @@
       }
     }
   }
+}
+
+@media (max-width: 660px) {
+  .container{
+    width: 90%;
+  }
+  #frontEnd .frontEnd--inform {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -213px;
+}
+#frontEnd .frontEnd .frontEnd--title {
+  width: 591px;
+  height: 146px;
+  margin: 0;
+}
+#frontEnd .frontEnd--title__first {
+  padding: 0px 0px;
+}
 }
