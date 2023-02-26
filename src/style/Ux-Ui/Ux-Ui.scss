@@ -5,7 +5,6 @@
 
 #frontEnd {
   margin-top: 850px;
-  margin-top: 900px;
   .frontEnd {
 
    
@@ -17,6 +16,7 @@
       justify-content: space-between;
 
       &__question {
+        margin: 0;r
 
         h3 {
           font-size: 36px;
@@ -35,21 +35,22 @@
         p {
           font-weight: 400;
           font-size: 19px;
-          line-height: 14px;
+          line-height: 30px;
           margin-top: 10px;
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           color: rgba(27, 27, 27, 0.8);
         }
 
         h4 {
           font-weight: 400;
           font-size: 19px;
-          line-height: 0;
+          line-height: 30px;
           display: flex;
           align-items: center;
           color: rgba(27, 27, 27, 0.8);
-          margin-top: 40px;
+          margin: 0;
+          width: 662px;
         }
       }
     }
@@ -583,6 +584,7 @@
   }
 
   .program {
+    
 
     &--courses {
       display: flex;
@@ -606,13 +608,11 @@
         font-weight: 400;
         font-size: 19px;
         line-height: 140%;
-        /* or 27px */
         padding-top: 69px;
-
         display: flex;
         align-items: center;
-
         color: rgba(27, 27, 27, 0.8);
+        width: 643px;
       }
     }
 
@@ -1006,6 +1006,10 @@
     justify-content: center;
     margin-left: 52px;
 }
+#frontEnd .frontEnd--certificate__inform--img img {
+  width: 600px;
+  height: 348px;
+}
 #frontEnd .container .frontEnd--inform__text h4 {
   font-weight: 400;
   font-size: 14px;
@@ -1194,28 +1198,320 @@
   font-size: 34px;
   line-height: 0px;
   margin-left: 122px;
-  #frontEnd .frontEnd--certificate__inform--text h6 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 157%;
-    /* width: 587px; */
-    text-align: center;
-    text-align: center;
-    margin-left: 16px;
-    justify-content: center;
+}
+#frontEnd .frontEnd--certificate__inform--text h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 157%;
+  /* width: 587px; */
+  text-align: center;
+  text-align: center;
+  margin-left: 16px;
+  justify-content: center;
+}
+#frontEnd .frontEnd--certificate__inform--text__buttons button {
+padding: 10px 15px;
+padding: 10px 15px;
+background: white;
+color: black;
+border-radius: 25px;
+margin: 0 4px;
+border: none;
+transition: 0.4s;
+font-size: 15px;
+margin-left: 31px;
+}
+#frontEnd .frontEnd--certificate__inform--img img {
+  width: 515px;
+  height: 324px;
+}
+#frontEnd .designer .container .designer--choose {
+width: 515px;
+height: 114px;
+}
+
+}
+
+@media (max-width: 450px) {
+  .container{
+    width: 90%;
+  }
+
+  #frontEnd .frontEnd--bottom .container .frontEnd--cours__informs--first hr {
+    width: 400px;
+}
+#frontEnd .frontEnd .frontEnd--title {
+  width: 396px;
+  height: 90px;
+  margin: 0;
+}
+#frontEnd .frontEnd .frontEnd--buttons button {
+  width: 150px;
+  height: 78px;
+  background: linear-gradient(289.3deg, #131313 17.11%, rgba(28, 28, 28, 0.87) 100%);
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 22px;
+  margin: -31px 0;
+}
+#frontEnd .frontEnd--inform {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: -392px;
+}
+#frontEnd .frontEnd--inform__question h3 {
+  font-size: 19px;
+  color: black;
+  margin-top: 0;
+  width: 452px;
+  display: flex;
+  justify-content: center;
+  margin-left: -17px;
+}
+#frontEnd .frontEnd--inform__question h3 span {
+  font-size: 20px;
+  margin: 0 6px;
+}
+#frontEnd .container .frontEnd--inform__text P {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50px; */
+  text-align: center;
+  margin-left: 3px;
+}
+#frontEnd .container .frontEnd--inform__text h4 {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 0;
+  margin: 13px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 52px; */
+}
+#frontEnd .container .frontEnd--courses h2 {
+  font-weight: 500;
+  font-size: 23px;
+  margin: 50px 0;
+  width: 373px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 17px;
+}
+#frontEnd .frontEnd .frontEnd--title__first h1 {
+  font-size: 17px;
+  line-height: 21px;
+}
+#frontEnd .frontEnd .frontEnd--title__first h1 span {
+  font-weight: 400;
+  font-size: 8px;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__text h2 {
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  width: 379px;
+  text-align: center;
+  margin-left: 14px;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__informs--first__title h3 {
+  font-weight: 500;
+  font-size: 12px;
+}
+#frontEnd .frontEnd--bottom .container .frontEnd--cours__informs--first__title p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  padding-top: 14px;
 }
 #frontEnd .frontEnd--certificate__inform--text__buttons button {
   padding: 10px 15px;
-  padding: 10px 15px;
+  padding: 8px 10px;
   background: white;
   color: black;
   border-radius: 25px;
   margin: 0 4px;
   border: none;
   transition: 0.4s;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 31px;
 }
+#frontEnd .frontEnd--certificate__inform--text h3 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 0px;
+  margin-left: 87px;
+}
+#frontEnd .frontEnd--certificate__inform--text h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  /* width: 587px; */
+  text-align: center;
+  text-align: center;
+  margin-left: 8px;
+  justify-content: center;
+}
+#frontEnd .frontEnd--certificate__inform--img img {
+  width: 400px;
+  height: 265px;
+}
+#frontEnd .designer .container .designer--choose {
+  width: 403px;
+  height: 96px;
+}
+#frontEnd .designer--choose h2 {
+  font-weight: 700;
+  font-size: 23px;
+}
+#frontEnd .designer--choose p {
+  font-weight: 400;
+  font-size: 12px;
+}
+#frontEnd .designer .container .designer--fon__application {
+  width: 391px;
+  border-radius: 17px;
+  height: 280px;
+}
+#frontEnd .designer .container .designer--fon__application form input {
+  width: 295px;
+  height: 40px;
+}
+#frontEnd .designer .container .designer--fon__application button {
+  width: 335px;
+  padding: 9px;
+}
+#frontEnd .designer .container .designer--fon__application--checked {
+  width: 356px;
+}
+#frontEnd .designer--fon__application--checked p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+#frontEnd .designer--fon__application--checked .input {
+  width: 43px;
+  height: 19px;
+  margin: 0;
+}
+
+#frontEnd .mentor {
+    background: #EFEFEF;
+    padding: 62px 0;
+}
+#frontEnd .mentor--title h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 0;
+}
+#frontEnd .mentor--title h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 0;
+}
+#frontEnd .designer .container .designer--fon__application--checked {
+  width: 199px;
+  margin-left: -51px;
+}
+#frontEnd .designer--fon__application--checked p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 10px;
+  width: 307px;
+}
+#frontEnd .frontEnd--inform__question h3 {
+  font-size: 19px;
+  color: black;
+  margin-top: 0;
+  width: 352px;
+  display: flex;
+  justify-content: center;
+  margin-left: 26px;
+  text-align: center;
+}
+#frontEnd .program--courses h1 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 7px;
+  margin-top: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#frontEnd .program--courses p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  padding-top: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#frontEnd .mentor--connection__text p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #1D1D20;
+}
+#frontEnd .container .frontEnd--inform__text P {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50px; */
+  text-align: center;
+  margin-left: 3px;
+  width: 409px;
+}
+#frontEnd .container .frontEnd--inform__text h4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  margin: 13px 0;
+  
+  display: flex;
+ 
+  /* margin-left: 52px; */
+  width: 414px;
+  align-items: flex-start;
+}
+
+}
+
+@media (max-width: 376px) {
+  .container{
+    width: 90%;
+  }
+  #frontEnd .frontEnd--inform__question h3 {
+    font-size: 19px;
+    color: black;
+    margin-top: 0;
+    width: 352px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 26px;
+    /* text-align: center; */
+    width: 200px;
 }
 }
 

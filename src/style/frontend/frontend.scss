@@ -35,21 +35,23 @@
         p {
           font-weight: 400;
           font-size: 19px;
-          line-height: 14px;
+          line-height: 30px;
           margin-top: 10px;
           display: flex;
           align-items: center;
           color: rgba(27, 27, 27, 0.8);
+          width: 617px;
         }
 
         h4 {
           font-weight: 400;
           font-size: 19px;
-          line-height: 0;
+          line-height: 20px;
           display: flex;
           align-items: center;
           color: rgba(27, 27, 27, 0.8);
-          margin-top: 40px;
+          width: 662px;
+          margin: 0;
         }
       }
     }
@@ -343,6 +345,13 @@
             }
           }
 
+        }
+      }
+
+      &--img {
+
+        img{
+          width: 600px;
         }
       }
 

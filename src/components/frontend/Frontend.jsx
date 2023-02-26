@@ -32,12 +32,10 @@ const Frontend = () => {
 
                         </div>
                         <div className="frontEnd--inform__text">
-                            <p>{t("frontend.inform")}</p>
-                            <p>{t("frontend.inform-")}</p>
-                            <h4>{t("frontend.left")}</h4>
-                            <h4>{t("frontend.left-")}</h4>
-                            <h4>{t("frontend.left--")}</h4>
-                            <h4>{t("frontend.left---")}</h4>
+                            <p>{t("frontend.inform")} {t("frontend.inform-")}</p>
+                            
+                            <h4>{t("frontend.left")} {t("frontend.left-")} {t("frontend.left--")} {t("frontend.left---")}</h4>
+                        
                         </div>
                     </div>
 
@@ -176,7 +174,7 @@ const Frontend = () => {
                             <h6>{t("frontend.company")} <br/> {t("frontend.company-")} <br/> {t("frontend.company--")}
                             </h6>
                         </div>
-                        <div>
+                        <div className="frontEnd--certificate__inform--img">
                             <img src={Certificate} alt=""/>
                         </div>
 
@@ -273,7 +271,7 @@ const Frontend = () => {
                 <div className="container">
                     <div className="program--courses">
                         <h1>{t("frontend.program")}</h1>
-                        <p>{t("frontend.programText")} <br/> {t("frontend.programText-")} <br/> {t("frontend.programText--")} <br/> {t("frontend.programText---")}</p>
+                        <p>{t("frontend.programText")}  {t("frontend.programText-")}  {t("frontend.programText--")}  {t("frontend.programText---")}</p>
                     </div>
                 </div>
 

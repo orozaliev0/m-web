@@ -1,10 +1,7 @@
 @media (max-width: 1140px) {
- 
-
   #frontEnd {
-   
     .frontEnd {
-      .container{
+      .container {
         &--inform {
           &__question {
             h3 {
@@ -32,9 +29,7 @@
             margin: 58px 0;
           }
           &__inform {
-  
             &--first {
-  
               &__fon {
                 width: 315px;
                 height: 202px;
@@ -81,7 +76,6 @@
           }
         }
       }
-      
     }
     .frontEnd--bottom {
       .frontEnd--cours {
@@ -113,34 +107,32 @@
       }
     }
     .frontEnd--certificate {
-    .container{
+      .container {
+        width: 90%;
 
-    width: 90%;
-
-    &__inform {
-        
-      &--text {
-        h3 {
-          font-weight: 500;
-          font-size: 36px;
-          margin-top: 20px;
-        }
-        h6 {
-          font-weight: 400;
-          font-size: 17px;
-          line-height: 123%;
-        }
-        &__buttons {
+        &__inform {
+          &--text {
+            h3 {
+              font-weight: 500;
+              font-size: 36px;
+              margin-top: 20px;
+            }
+            h6 {
+              font-weight: 400;
+              font-size: 17px;
+              line-height: 123%;
+            }
+            &__buttons {
+            }
+          }
+          &--img {
+            img {
+              width: 500px;
+              height: 326px;
+            }
+          }
         }
       }
-      &--img {
-        img {
-          width: 500px;
-          height: 326px;
-        }
-      }
-    }
-    }
     }
     .mentor {
       padding: 60px 0;
@@ -252,65 +244,58 @@
 }
 
 @media (max-width: 992px) {
-
- 
   #frontEnd {
     .container {
       width: 90%;
 
       .frontEnd {
-
-        &--inform{
-          &--question{
-            h3{
+        &--inform {
+          &--question {
+            h3 {
               width: 263px;
-    font-size: 32px;
-    color: black;
-    margin-top: 0;
+              font-size: 32px;
+              color: black;
+              margin-top: 0;
 
-    span{
-      font-size: 32px;
-      color: #EC3025;
-    }
+              span {
+                font-size: 32px;
+                color: #ec3025;
+              }
             }
           }
-  
-          &__text{
-            P{
+
+          &__text {
+            P {
               font-weight: 400;
-      font-size: 15px;
+              font-size: 15px;
             }
-            h4{
+            h4 {
               font-weight: 400;
-      font-size: 14px;
+              font-size: 14px;
             }
           }
         }
-  
-        &--courses{
 
-          h2{
+        &--courses {
+          h2 {
             font-weight: 500;
-    font-size: 31px;
+            font-size: 31px;
           }
-  
-          &__inform{
-  
-            &--first{
-  
-              &__fon{
+
+          &__inform {
+            &--first {
+              &__fon {
                 width: 271px;
                 height: 202px;
               }
-              h3{
+              h3 {
                 font-weight: 400;
                 font-size: 20px;
               }
-              p{
+              p {
                 font-weight: 400;
-                font-size: 12px
+                font-size: 12px;
               }
-  
             }
           }
         }
@@ -318,59 +303,52 @@
           width: 887px;
           height: 205px;
           margin: 0;
-  
-          &__first{
-  
-            h1{
+
+          &__first {
+            h1 {
               font-weight: 500;
               font-size: 38px;
-  
-  span{
-    margin: 0px 0;
-    font-weight: 400;
-    font-size: 19px;
-  }
+
+              span {
+                margin: 0px 0;
+                font-weight: 400;
+                font-size: 19px;
+              }
             }
           }
         }
-        &--buttons{
-          button{
-                 width: 400px;
-      height: 163px;
+        &--buttons {
+          button {
+            width: 400px;
+            height: 163px;
           }
-             
         }
-  
       }
     }
     .frontEnd--bottom {
-      .container{
-        .frontEnd--cours { 
+      .container {
+        .frontEnd--cours {
           &__text {
-  
             h2 {
               font-size: 35px;
-    line-height: 38px;
-    width: 24px;
-    margin-top: 21px;
+              line-height: 38px;
+              width: 24px;
+              margin-top: 21px;
             }
           }
           &__informs {
-  
             &--first {
-  
-              &__title{
-
-                h3{
+              &__title {
+                h3 {
                   font-weight: 500;
                   font-size: 19px;
                 }
 
-                p{
+                p {
                   font-weight: 400;
-    font-size: 14px;
-    line-height: 140%;
-    padding-top: 14px;
+                  font-size: 14px;
+                  line-height: 140%;
+                  padding-top: 14px;
                 }
               }
               hr {
@@ -380,77 +358,65 @@
           }
         }
       }
-      
     }
-    .frontEnd--certificate{
-
-     .container{
-      width: 90%;
-      &__inform{
-
-        &--text{
-
-          h3{
-            font-weight: 500;
-            font-size: 36px;
-            line-height: 0px;
+    .frontEnd--certificate {
+      .container {
+        width: 90%;
+        &__inform {
+          &--text {
+            h3 {
+              font-weight: 500;
+              font-size: 36px;
+              line-height: 0px;
+            }
           }
         }
       }
-     }
-     
     }
     .designer {
-     .container{
-      .designer--choose{
-            width: 893px;
-       
-      }
-      .designer--fon{
-        &__application{
-              width: 534px;
-              form{
-                input{
-                      width: 399px;
-                      height: 52px;
-                }
+      .container {
+        .designer--choose {
+          width: 893px;
+        }
+        .designer--fon {
+          &__application {
+            width: 534px;
+            form {
+              input {
+                width: 399px;
+                height: 52px;
               }
-              &--checked{
-                width: 452px;
-              }
-              button{
-                    width: 444px;
-              }
+            }
+            &--checked {
+              width: 452px;
+            }
+            button {
+              width: 444px;
+            }
+          }
         }
       }
-     }
     }
     .mentor {
-      
-        &--boys {
-          &__first {
-            img {
-              width: 275px;
-            }
+      &--boys {
+        &__first {
+          img {
+            width: 275px;
           }
         }
-        &--connection {
-          &__text {
-            h2 {
-              font-size: 26px;
-            }
-          }
-          &__video {
-            
-            .video {
-              width: 264px;
-            }
-              
+      }
+      &--connection {
+        &__text {
+          h2 {
+            font-size: 26px;
           }
         }
-      
-
-      
+        &__video {
+          .video {
+            width: 264px;
+          }
+        }
+      }
     }
     .program {
       &--courses {
@@ -459,16 +425,13 @@
         }
         p {
           font-weight: 400;
-          
         }
       }
     }
-    
-    
   }
-//   #frontEnd .mentor--connection__video .video {
-//     width: 259px;
-// }
+  //   #frontEnd .mentor--connection__video .video {
+  //     width: 259px;
+  // }
 }
 
 @media (max-width: 768px) {
@@ -704,7 +667,7 @@
 }
 
 @media (max-width: 660px) {
-  .container{
+  .container {
     width: 90%;
   }
   #frontEnd .frontEnd--inform {
@@ -713,13 +676,643 @@
     justify-content: center;
     flex-direction: column;
     margin-top: -213px;
+  }
+  #frontEnd .frontEnd .frontEnd--title {
+    width: 591px;
+    height: 146px;
+    margin: 0;
+  }
+  #frontEnd .frontEnd--title__first {
+    padding: 0px 0px;
+  }
 }
-#frontEnd .frontEnd .frontEnd--title {
-  width: 591px;
-  height: 146px;
-  margin: 0;
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  #frontEnd .frontEnd--certificate__inform--img img {
+    width: 515px;
+    height: 300px;
+  }
 }
-#frontEnd .frontEnd--title__first {
-  padding: 0px 0px;
-}
+
+// @media (max-width: 451px) {
+//   #frontEnd {
+//     margin-top: 850px;
+//     margin-top: 900px;
+//     .frontEnd {
+//       background: #f8f8f8;
+
+//       .container {
+//         &--inform {
+//           display: flex;
+//           align-items: flex-start;
+//           justify-content: space-between;
+
+//           &__question {
+//             h3 {
+//               font-size: 36px;
+//               color: black;
+//               margin-top: 0;
+//               width: 379px;
+//             }
+
+//             span {
+//               font-size: 36px;
+//               color: #ec3025;
+//             }
+//           }
+
+//           &__text {
+//             display: flex;
+//             flex-direction: column;
+
+//             p {
+//               font-weight: 400;
+//               font-size: 16px;
+//               line-height: 2;
+//               display: flex;
+//               justify-content: center;
+//               /* margin-left: 50px; */
+//               text-align: center;
+//               margin-left: 3px;
+//               width: 394px;
+//             }
+
+//             h4 {
+//               font-weight: 400;
+//               font-size: 16px;
+//               line-height: 2;
+//               width: 404px;
+//               margin: 13px 0;
+//               text-align: center;
+//               display: flex;
+//               justify-content: center;
+//             }
+//           }
+//         }
+
+//         &--courses {
+//           padding: 50px 0;
+
+//           h2 {
+//             font-weight: 500;
+//             font-size: 36px;
+//             line-height: 36px;
+//             display: flex;
+//             align-items: center;
+
+//             color: #000000;
+
+//             margin: 55px 0;
+
+//             margin: 100px 0;
+//             width: 262px;
+//           }
+
+//           &__inform {
+//             display: flex;
+//             justify-content: space-between;
+
+//             &--first {
+//               &__fon {
+//                 width: 380px;
+//                 height: 202px;
+//                 left: 110px;
+//                 top: 1430px;
+//                 background: linear-gradient(
+//                   180deg,
+//                   #edf1ff 0%,
+//                   rgba(203, 214, 255, 0.65) 100%
+//                 );
+//                 border-radius: 20px;
+//                 display: flex;
+//                 justify-content: center;
+
+//                 img {
+//                   width: 196px;
+//                   height: 170px;
+//                   left: 202px;
+//                   padding: 31px;
+//                 }
+//               }
+
+//               h3 {
+//                 font-weight: 400;
+//                 font-size: 24px;
+//                 line-height: 29px;
+//                 /* identical to box height */
+
+//                 display: flex;
+//                 align-items: center;
+
+//                 color: #000000;
+//               }
+
+//               p {
+//                 font-weight: 400;
+//                 font-size: 18px;
+//                 line-height: 130%;
+//                 /* or 23px */
+
+//                 display: flex;
+//                 align-items: center;
+
+//                 color: rgba(27, 27, 27, 0.8);
+//               }
+//             }
+//           }
+//         }
+
+//         &--title {
+//           display: flex;
+//           align-items: center;
+
+//           margin: 45px 0;
+
+//           margin: 70px 0;
+
+//           width: 1280px;
+//           height: 229px;
+//           left: 110px;
+//           top: 1866px;
+
+//           /* red */
+
+//           border: 2px solid #ec3025;
+//           border-radius: 125px;
+
+//           &__first {
+//             padding: 0 60px;
+
+//             h1 {
+//               font-weight: 500;
+//               font-size: 64px;
+//               line-height: 64px;
+//               display: flex;
+//               align-items: center;
+//               color: #ec3025;
+//               flex-direction: column;
+//               text-align: center;
+
+//               span {
+//                 margin: 10px 0;
+//                 font-weight: 400;
+//                 font-size: 24px;
+//                 line-height: 29px;
+//                 display: flex;
+//                 align-items: center;
+
+//                 color: #1b1b1b;
+//               }
+//             }
+
+//             h4 {
+//             }
+//           }
+//         }
+
+//         &--buttons {
+//           display: flex;
+//           align-items: center;
+//           justify-content: space-between;
+//           margin: 100px 0;
+
+//           button {
+//             width: 590px;
+//             height: 205px;
+//             background: linear-gradient(
+//               289.3deg,
+//               #131313 17.11%,
+//               rgba(28, 28, 28, 0.87) 100%
+//             );
+//             border-radius: 30px;
+
+//             font-weight: 500;
+//             font-size: 36px;
+//             line-height: 36px;
+//             /* identical to box height */
+
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             color: #ffffff;
+
+//             &:hover {
+//               background: #3f3535;
+//               border: none;
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     .frontEnd--bottom {
+//       //width: 1440px;
+//       //height: 895px;
+//       left: 0;
+//       top: 2540px;
+//       background: #efefef;
+
+//       .frontEnd--cours {
+//         display: flex;
+//         justify-content: space-between;
+
+//         &__text {
+//           h2 {
+//             font-weight: 500;
+//             font-size: 40px;
+//             line-height: 40px;
+//             display: flex;
+//             align-items: center;
+//             color: #ec3025;
+//           }
+//         }
+
+//         &__informs {
+//           padding-bottom: 60px;
+
+//           &--first {
+//             &__title {
+//               display: flex;
+//               justify-content: space-between;
+
+//               h3 {
+//                 font-weight: 500;
+//                 font-size: 24px;
+//                 line-height: 24px;
+//                 display: flex;
+//                 align-items: center;
+
+//                 color: #000000;
+//               }
+
+//               p {
+//                 font-weight: 400;
+//                 font-size: 19px;
+//                 line-height: 140%;
+//                 padding-top: 29px;
+
+//                 display: flex;
+//                 align-items: center;
+
+//                 color: rgba(27, 27, 27, 0.8);
+//               }
+//             }
+
+//             hr {
+//               width: 903px;
+//               height: 0;
+
+//               border: 1px solid #000000;
+//               transform: rotate(0.03deg);
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     .frontEnd--certificate {
+//       padding: 70px 0;
+//       background: linear-gradient(
+//         289.3deg,
+//         #131313 17.11%,
+//         rgba(28, 28, 28, 0.87) 100%
+//       );
+
+//       &__inform {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+
+//         &--text {
+//           h3 {
+//             font-weight: 500;
+//             font-size: 40px;
+//             line-height: 40px;
+//             /* identical to box height */
+
+//             display: flex;
+//             align-items: center;
+
+//             color: #ffffff;
+//           }
+
+//           h6 {
+//             font-weight: 400;
+//             font-size: 19px;
+//             line-height: 140%;
+//             /* or 27px */
+
+//             display: flex;
+//             align-items: center;
+
+//             color: rgba(255, 255, 255, 0.8);
+//           }
+
+//           &__buttons {
+//             button {
+//               padding: 10px 15px;
+
+//               padding: 5px 10px;
+//               background: white;
+//               color: black;
+//               border-radius: 25px;
+//               margin: 0 4px;
+//               border: none;
+//               transition: 0.4s;
+
+//               &:hover {
+//                 background: #ec3025;
+//                 color: white;
+//               }
+//             }
+//           }
+//         }
+
+//         &--img {
+//           img {
+//             width: 600px;
+//           }
+//         }
+//       }
+//     }
+
+//     .designer {
+//       padding: 70px 0;
+
+//       &--choose {
+//         width: 1280px;
+//         height: 179px;
+//         left: 110px;
+//         top: 4052px;
+//         background: #ff563f;
+//         border-radius: 30px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         flex-direction: column;
+//         padding: 10px 0;
+
+//         h2 {
+//           font-weight: 700;
+//           font-size: 48px;
+//           line-height: 0;
+//           /* identical to box height */
+
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           text-align: center;
+//           color: #ffffff;
+//         }
+
+//         p {
+//           font-weight: 400;
+//           font-size: 19px;
+//           line-height: 0;
+//           /* identical to box height, or 27px */
+
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           color: rgba(255, 255, 255, 0.8);
+//         }
+//       }
+
+//       &--fon {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         margin: 30px 0;
+
+//         &__application {
+//           width: 800px;
+//           height: 344px;
+//           left: 0;
+//           top: 0;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           //align-items: center;
+//           //justify-content: center;
+//           background: #ff563f;
+//           border-radius: 30px;
+//           flex-direction: column;
+
+//           input {
+//             display: flex;
+//             //flex-direction: row;
+//             flex-direction: row;
+//             align-items: center;
+//             justify-content: center;
+//             width: 588px;
+//             height: 63px;
+//             padding: 0 20px;
+//             background: #fff8f8;
+//             border-radius: 20px;
+//             margin: 10px 0;
+//           }
+
+//           &--checked {
+//             width: 646px;
+//             margin: 10px 82px;
+//           }
+
+//           &--checked {
+//             display: flex;
+//             align-items: center;
+
+//             input {
+//               width: 15px;
+//               height: 15px;
+//               margin: 0 10px;
+//             }
+//             .input {
+//               width: 500px;
+//             }
+
+//             p {
+//               font-weight: 400;
+//               font-size: 14px;
+//               line-height: 130%;
+//               /* or 18px */
+
+//               display: flex;
+//               align-items: center;
+
+//               color: rgba(255, 255, 255, 0.7);
+//             }
+//           }
+
+//           button {
+//             padding: 17px 0;
+//             width: 629px;
+//             width: 588px;
+//             background: #090a0c;
+//             border-radius: 44px;
+//             font-weight: 500;
+//             font-size: 20px;
+//             line-height: 24px;
+//             /* identical to box height */
+
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+
+//             color: #ffffff;
+//             margin: 10px 82px;
+//           }
+//         }
+//       }
+//     }
+
+//     .mentor {
+//       background: #efefef;
+//       padding: 100px 0;
+
+//       &--title {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         flex-direction: column;
+
+//         h2 {
+//           font-weight: 500;
+//           font-size: 40px;
+//           line-height: 0;
+//           display: flex;
+//           align-items: center;
+//           text-align: center;
+
+//           /* красный */
+
+//           color: #ec3025;
+//         }
+
+//         h3 {
+//           font-weight: 500;
+//           font-size: 40px;
+//           line-height: 0;
+//           display: flex;
+//           align-items: center;
+//           text-align: center;
+
+//           /* красный */
+
+//           color: #000000;
+//         }
+//       }
+
+//       &--boys {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         padding: 50px 0;
+
+//         &__first {
+//           h3 {
+//             font-weight: 400;
+//             font-size: 24px;
+//             line-height: 130%;
+
+//             display: flex;
+//             align-items: center;
+//             text-align: center;
+
+//             color: #000000;
+//           }
+
+//           p {
+//             font-weight: 400;
+//             font-size: 19px;
+//             line-height: 140%;
+//             display: flex;
+//             align-items: center;
+
+//             color: rgba(27, 27, 27, 0.8);
+//           }
+//         }
+//       }
+
+//       &--connection {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+
+//         &__video {
+//           display: flex;
+//           .video {
+//             // width: 38/0px;
+//           }
+//         }
+
+//         &__text {
+//           h2 {
+//             font-weight: 500;
+//             font-size: 36px;
+//             line-height: 36px;
+//             display: flex;
+//             align-items: center;
+
+//             color: #000000;
+//           }
+
+//           p {
+//             font-weight: 400;
+//             font-size: 19px;
+//             line-height: 140%;
+//             display: flex;
+//             align-items: center;
+//             color: #1d1d20;
+//           }
+//         }
+//       }
+//     }
+
+//     .program {
+//       &--courses {
+//         display: flex;
+//         justify-content: space-between;
+//         padding: 30px 0;
+
+//         h1 {
+//           font-weight: 500;
+//           font-size: 40px;
+//           line-height: 40px;
+//           /* identical to box height */
+//           margin-top: 10px;
+
+//           display: flex;
+//           align-items: center;
+
+//           color: #ec3025;
+//         }
+
+//         p {
+//           font-weight: 400;
+//           font-size: 19px;
+//           line-height: 140%;
+//           /* or 27px */
+//           padding-top: 69px;
+
+//           display: flex;
+//           align-items: center;
+
+//           color: rgba(27, 27, 27, 0.8);
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 450px) {
+  .container{
+    width: 90%;
+  }
+  
+
 }
