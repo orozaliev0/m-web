@@ -183,49 +183,54 @@
     }
 
     .designer {
-      &--choose {
-        width: 1021px;
-        height: 167px;
-        h2 {
-          font-weight: 700;
-          font-size: 40px;
-        }
-        p {
-          font-weight: 400;
-          font-size: 17px;
-          line-height: 0;
-        }
-      }
-      &--fon {
-        img {
-          width: 284px;
-          height: 279px;
-        }
-        &__application {
-          width: 671px;
-          height: 285px;
-          input {
-            width: 519px;
-            height: 40px;
+      .container{
+        &--choose {
+          width: 1026px;
+          height: 167px;
+          h2 {
+            font-weight: 700;
+            font-size: 40px;
           }
-          &--checked {
-            width: 577px;
-            margin: 10px 0;
-            .check-box {
-              width: 25px;
-              height: 25px;
+          p {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 0;
+          }
+        }
+        &--fon {
+          img {
+            width: 284px;
+            height: 279px;
+          }
+          &__application {
+            width: 624px;
+            height: 344px;
+            input {
+              width: 519px;
+              height: 40px;
+            }
+            &--checked {
+              width: 577px;
+              margin: 10px 0;
+              .check-box {
+                width: 25px;
+                height: 25px;
+              }
+            }
+            button {
+              padding: 9px 0;
+              width: 558px;
+              background: #090a0c;
+              border-radius: 44px;
+              font-weight: 500;
+              font-size: 18px;
             }
           }
-          button {
-            padding: 9px 0;
-            width: 558px;
-            background: #090a0c;
-            border-radius: 44px;
-            font-weight: 500;
-            font-size: 18px;
-          }
         }
       }
+        
+      
+      
     }
     .program {
       &--courses {
@@ -242,6 +247,84 @@
     }
   }
 }
+
+// @media (max-width: 1200px) {
+//   #frontEnd {
+//     .frontEnd {
+//       .container {
+//         .frontEnd--courses {
+//           &__inform {
+//             &--first {
+//               &__fon {
+//                 width: 299px;
+//               }
+//               p {
+//                 font-size: 15px;
+//                 width: 343px;
+//               }
+//             }
+//           }
+//         }
+//         .frontEnd--title {
+//           width: 1081px;
+//         }
+//         .frontEnd--buttons {
+//           button {
+//             width: 458px;
+//           }
+//         }
+//       }
+//     }
+//     .designer {
+//       .container {
+//         .designer--choose {
+//           width: 1091px;
+//         }
+//         .designer--fon {
+//           img {
+//             width: 333px;
+//           }
+//           .designer--fon__application {
+//             width: 709px;
+//           }
+//         }
+//       }
+//     }
+//     .frontEnd--bottom {
+//       .container {
+//         .frontEnd--cours {
+//           &__informs {
+//             width: 813px;
+//             &--first {
+//               hr {
+//                 width: 807px;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .mentor {
+//       .container {
+//         .mentor--boys {
+//           &__first {
+//             img {
+//               width: 320px;
+//             }
+//           }
+//         }
+//         .mentor--connection {
+//           &__video {
+//             iframe {
+//               width: 344px;
+//               height: 213px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 @media (max-width: 992px) {
   #frontEnd {
@@ -697,622 +780,21 @@
   }
 }
 
-// @media (max-width: 451px) {
-//   #frontEnd {
-//     margin-top: 850px;
-//     margin-top: 900px;
-//     .frontEnd {
-//       background: #f8f8f8;
-
-//       .container {
-//         &--inform {
-//           display: flex;
-//           align-items: flex-start;
-//           justify-content: space-between;
-
-//           &__question {
-//             h3 {
-//               font-size: 36px;
-//               color: black;
-//               margin-top: 0;
-//               width: 379px;
-//             }
-
-//             span {
-//               font-size: 36px;
-//               color: #ec3025;
-//             }
-//           }
-
-//           &__text {
-//             display: flex;
-//             flex-direction: column;
-
-//             p {
-//               font-weight: 400;
-//               font-size: 16px;
-//               line-height: 2;
-//               display: flex;
-//               justify-content: center;
-//               /* margin-left: 50px; */
-//               text-align: center;
-//               margin-left: 3px;
-//               width: 394px;
-//             }
-
-//             h4 {
-//               font-weight: 400;
-//               font-size: 16px;
-//               line-height: 2;
-//               width: 404px;
-//               margin: 13px 0;
-//               text-align: center;
-//               display: flex;
-//               justify-content: center;
-//             }
-//           }
-//         }
-
-//         &--courses {
-//           padding: 50px 0;
-
-//           h2 {
-//             font-weight: 500;
-//             font-size: 36px;
-//             line-height: 36px;
-//             display: flex;
-//             align-items: center;
-
-//             color: #000000;
-
-//             margin: 55px 0;
-
-//             margin: 100px 0;
-//             width: 262px;
-//           }
-
-//           &__inform {
-//             display: flex;
-//             justify-content: space-between;
-
-//             &--first {
-//               &__fon {
-//                 width: 380px;
-//                 height: 202px;
-//                 left: 110px;
-//                 top: 1430px;
-//                 background: linear-gradient(
-//                   180deg,
-//                   #edf1ff 0%,
-//                   rgba(203, 214, 255, 0.65) 100%
-//                 );
-//                 border-radius: 20px;
-//                 display: flex;
-//                 justify-content: center;
-
-//                 img {
-//                   width: 196px;
-//                   height: 170px;
-//                   left: 202px;
-//                   padding: 31px;
-//                 }
-//               }
-
-//               h3 {
-//                 font-weight: 400;
-//                 font-size: 24px;
-//                 line-height: 29px;
-//                 /* identical to box height */
-
-//                 display: flex;
-//                 align-items: center;
-
-//                 color: #000000;
-//               }
-
-//               p {
-//                 font-weight: 400;
-//                 font-size: 18px;
-//                 line-height: 130%;
-//                 /* or 23px */
-
-//                 display: flex;
-//                 align-items: center;
-
-//                 color: rgba(27, 27, 27, 0.8);
-//               }
-//             }
-//           }
-//         }
-
-//         &--title {
-//           display: flex;
-//           align-items: center;
-
-//           margin: 45px 0;
-
-//           margin: 70px 0;
-
-//           width: 1280px;
-//           height: 229px;
-//           left: 110px;
-//           top: 1866px;
-
-//           /* red */
-
-//           border: 2px solid #ec3025;
-//           border-radius: 125px;
-
-//           &__first {
-//             padding: 0 60px;
-
-//             h1 {
-//               font-weight: 500;
-//               font-size: 64px;
-//               line-height: 64px;
-//               display: flex;
-//               align-items: center;
-//               color: #ec3025;
-//               flex-direction: column;
-//               text-align: center;
-
-//               span {
-//                 margin: 10px 0;
-//                 font-weight: 400;
-//                 font-size: 24px;
-//                 line-height: 29px;
-//                 display: flex;
-//                 align-items: center;
-
-//                 color: #1b1b1b;
-//               }
-//             }
-
-//             h4 {
-//             }
-//           }
-//         }
-
-//         &--buttons {
-//           display: flex;
-//           align-items: center;
-//           justify-content: space-between;
-//           margin: 100px 0;
-
-//           button {
-//             width: 590px;
-//             height: 205px;
-//             background: linear-gradient(
-//               289.3deg,
-//               #131313 17.11%,
-//               rgba(28, 28, 28, 0.87) 100%
-//             );
-//             border-radius: 30px;
-
-//             font-weight: 500;
-//             font-size: 36px;
-//             line-height: 36px;
-//             /* identical to box height */
-
-//             display: flex;
-//             align-items: center;
-//             justify-content: center;
-//             color: #ffffff;
-
-//             &:hover {
-//               background: #3f3535;
-//               border: none;
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     .frontEnd--bottom {
-//       //width: 1440px;
-//       //height: 895px;
-//       left: 0;
-//       top: 2540px;
-//       background: #efefef;
-
-//       .frontEnd--cours {
-//         display: flex;
-//         justify-content: space-between;
-
-//         &__text {
-//           h2 {
-//             font-weight: 500;
-//             font-size: 40px;
-//             line-height: 40px;
-//             display: flex;
-//             align-items: center;
-//             color: #ec3025;
-//           }
-//         }
-
-//         &__informs {
-//           padding-bottom: 60px;
-
-//           &--first {
-//             &__title {
-//               display: flex;
-//               justify-content: space-between;
-
-//               h3 {
-//                 font-weight: 500;
-//                 font-size: 24px;
-//                 line-height: 24px;
-//                 display: flex;
-//                 align-items: center;
-
-//                 color: #000000;
-//               }
-
-//               p {
-//                 font-weight: 400;
-//                 font-size: 19px;
-//                 line-height: 140%;
-//                 padding-top: 29px;
-
-//                 display: flex;
-//                 align-items: center;
-
-//                 color: rgba(27, 27, 27, 0.8);
-//               }
-//             }
-
-//             hr {
-//               width: 903px;
-//               height: 0;
-
-//               border: 1px solid #000000;
-//               transform: rotate(0.03deg);
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     .frontEnd--certificate {
-//       padding: 70px 0;
-//       background: linear-gradient(
-//         289.3deg,
-//         #131313 17.11%,
-//         rgba(28, 28, 28, 0.87) 100%
-//       );
-
-//       &__inform {
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-between;
-
-//         &--text {
-//           h3 {
-//             font-weight: 500;
-//             font-size: 40px;
-//             line-height: 40px;
-//             /* identical to box height */
-
-//             display: flex;
-//             align-items: center;
-
-//             color: #ffffff;
-//           }
-
-//           h6 {
-//             font-weight: 400;
-//             font-size: 19px;
-//             line-height: 140%;
-//             /* or 27px */
-
-//             display: flex;
-//             align-items: center;
-
-//             color: rgba(255, 255, 255, 0.8);
-//           }
-
-//           &__buttons {
-//             button {
-//               padding: 10px 15px;
-
-//               padding: 5px 10px;
-//               background: white;
-//               color: black;
-//               border-radius: 25px;
-//               margin: 0 4px;
-//               border: none;
-//               transition: 0.4s;
-
-//               &:hover {
-//                 background: #ec3025;
-//                 color: white;
-//               }
-//             }
-//           }
-//         }
-
-//         &--img {
-//           img {
-//             width: 600px;
-//           }
-//         }
-//       }
-//     }
-
-//     .designer {
-//       padding: 70px 0;
-
-//       &--choose {
-//         width: 1280px;
-//         height: 179px;
-//         left: 110px;
-//         top: 4052px;
-//         background: #ff563f;
-//         border-radius: 30px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         flex-direction: column;
-//         padding: 10px 0;
-
-//         h2 {
-//           font-weight: 700;
-//           font-size: 48px;
-//           line-height: 0;
-//           /* identical to box height */
-
-//           display: flex;
-//           align-items: center;
-//           justify-content: center;
-
-//           text-align: center;
-//           color: #ffffff;
-//         }
-
-//         p {
-//           font-weight: 400;
-//           font-size: 19px;
-//           line-height: 0;
-//           /* identical to box height, or 27px */
-
-//           display: flex;
-//           align-items: center;
-//           justify-content: center;
-
-//           color: rgba(255, 255, 255, 0.8);
-//         }
-//       }
-
-//       &--fon {
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-between;
-//         margin: 30px 0;
-
-//         &__application {
-//           width: 800px;
-//           height: 344px;
-//           left: 0;
-//           top: 0;
-//           display: flex;
-//           align-items: center;
-//           justify-content: center;
-//           //align-items: center;
-//           //justify-content: center;
-//           background: #ff563f;
-//           border-radius: 30px;
-//           flex-direction: column;
-
-//           input {
-//             display: flex;
-//             //flex-direction: row;
-//             flex-direction: row;
-//             align-items: center;
-//             justify-content: center;
-//             width: 588px;
-//             height: 63px;
-//             padding: 0 20px;
-//             background: #fff8f8;
-//             border-radius: 20px;
-//             margin: 10px 0;
-//           }
-
-//           &--checked {
-//             width: 646px;
-//             margin: 10px 82px;
-//           }
-
-//           &--checked {
-//             display: flex;
-//             align-items: center;
-
-//             input {
-//               width: 15px;
-//               height: 15px;
-//               margin: 0 10px;
-//             }
-//             .input {
-//               width: 500px;
-//             }
-
-//             p {
-//               font-weight: 400;
-//               font-size: 14px;
-//               line-height: 130%;
-//               /* or 18px */
-
-//               display: flex;
-//               align-items: center;
-
-//               color: rgba(255, 255, 255, 0.7);
-//             }
-//           }
-
-//           button {
-//             padding: 17px 0;
-//             width: 629px;
-//             width: 588px;
-//             background: #090a0c;
-//             border-radius: 44px;
-//             font-weight: 500;
-//             font-size: 20px;
-//             line-height: 24px;
-//             /* identical to box height */
-
-//             display: flex;
-//             align-items: center;
-//             justify-content: center;
-
-//             color: #ffffff;
-//             margin: 10px 82px;
-//           }
-//         }
-//       }
-//     }
-
-//     .mentor {
-//       background: #efefef;
-//       padding: 100px 0;
-
-//       &--title {
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         flex-direction: column;
-
-//         h2 {
-//           font-weight: 500;
-//           font-size: 40px;
-//           line-height: 0;
-//           display: flex;
-//           align-items: center;
-//           text-align: center;
-
-//           /* красный */
-
-//           color: #ec3025;
-//         }
-
-//         h3 {
-//           font-weight: 500;
-//           font-size: 40px;
-//           line-height: 0;
-//           display: flex;
-//           align-items: center;
-//           text-align: center;
-
-//           /* красный */
-
-//           color: #000000;
-//         }
-//       }
-
-//       &--boys {
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-between;
-//         padding: 50px 0;
-
-//         &__first {
-//           h3 {
-//             font-weight: 400;
-//             font-size: 24px;
-//             line-height: 130%;
-
-//             display: flex;
-//             align-items: center;
-//             text-align: center;
-
-//             color: #000000;
-//           }
-
-//           p {
-//             font-weight: 400;
-//             font-size: 19px;
-//             line-height: 140%;
-//             display: flex;
-//             align-items: center;
-
-//             color: rgba(27, 27, 27, 0.8);
-//           }
-//         }
-//       }
-
-//       &--connection {
-//         display: flex;
-//         align-items: center;
-//         justify-content: space-between;
-
-//         &__video {
-//           display: flex;
-//           .video {
-//             // width: 38/0px;
-//           }
-//         }
-
-//         &__text {
-//           h2 {
-//             font-weight: 500;
-//             font-size: 36px;
-//             line-height: 36px;
-//             display: flex;
-//             align-items: center;
-
-//             color: #000000;
-//           }
-
-//           p {
-//             font-weight: 400;
-//             font-size: 19px;
-//             line-height: 140%;
-//             display: flex;
-//             align-items: center;
-//             color: #1d1d20;
-//           }
-//         }
-//       }
-//     }
-
-//     .program {
-//       &--courses {
-//         display: flex;
-//         justify-content: space-between;
-//         padding: 30px 0;
-
-//         h1 {
-//           font-weight: 500;
-//           font-size: 40px;
-//           line-height: 40px;
-//           /* identical to box height */
-//           margin-top: 10px;
-
-//           display: flex;
-//           align-items: center;
-
-//           color: #ec3025;
-//         }
-
-//         p {
-//           font-weight: 400;
-//           font-size: 19px;
-//           line-height: 140%;
-//           /* or 27px */
-//           padding-top: 69px;
-
-//           display: flex;
-//           align-items: center;
-
-//           color: rgba(27, 27, 27, 0.8);
-//         }
-//       }
-//     }
-//   }
-// }
 
 @media (max-width: 450px) {
-  .container{
+  .container {
     width: 90%;
   }
-  
-
+  #frontEnd .frontEnd .frontEnd--title {
+    width: 396px;
+    height: 90px;
+    margin: 0;
+  }
+  #frontEnd .frontEnd .container .frontEnd--title {
+    width: 401px;
+}
+#frontEnd .frontEnd .container .frontEnd--buttons button {
+  width: 175px;
+  height: 61px;
+}
 }
