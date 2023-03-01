@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d17d0a5f-9383-4f11-9453-7c68afec3a9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/home/Accordion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/home/accprdion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/home/media/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/Layout/mainPart/mainMedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Layout/mainPart/mainMedia.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/frontend/frontend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/frontend/frontend.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -84,6 +86,7 @@
       <workItem from="1676711874678" duration="1798000" />
       <workItem from="1676760984758" duration="6800000" />
       <workItem from="1676804165609" duration="519000" />
+      <workItem from="1677662383094" duration="1368000" />
     </task>
     <servers />
   </component>

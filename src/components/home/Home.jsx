@@ -210,7 +210,7 @@ const Home = () => {
                 </div>
                 <div className="user--one__block">
                   <h1>UX/UI DESIGN</h1>
-                  <p>{t("main.userUi")}</p>
+                  <p>{t("main.")}</p>
                   <div
                     className="user--one__block--btn  user--one__block--adil"
                     style={{ padding: "23px 0px 49px 0" }}
